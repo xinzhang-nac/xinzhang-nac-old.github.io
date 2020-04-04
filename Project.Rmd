@@ -45,7 +45,7 @@ title: 'Project-N.A.C'
 <center>
 |   | 
 |---|
-| ![](images/SCC/SCC2.png){width=250px} |
+| ![](images/SCC/SCC1.png){width=250px} |
 </center>
 
 &nbsp;
