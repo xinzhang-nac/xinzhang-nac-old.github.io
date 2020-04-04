@@ -1,0 +1,29 @@
+---
+title: 'Map-N.A.C'
+---
+
+**See where I have been or visited!**
+
+<!-- <iframe src="https://allenansa.shinyapps.io/tour_shiny/" width="1100" height='900' frameBorder="0"> -->
+<!-- </iframe> -->
+
+```{r, echo = FALSE, fig.align = 'center', warning = FALSE, message = FALSE}
+library(leaflet)
+library(lubridate)
+load('tour_shiny/visited_place.RData')
+# visited_places<- rbind(visited_places,
+#                        data.frame(
+#                          place=c('Denver, 2019 JSM~'),
+#                          longitude=c(-104.9903),
+#                          latitude=c(39.7392),
+#                          country = 'United State'))
+# save(visited_places, file = 'tour_shiny/visited_place.RData')
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(data=visited_places,lng=~longitude, lat=~latitude, popup=~place,icon=~icons(iconWidth=.1,iconHeight=.2),clusterOptions = markerClusterOptions()) 
+
+```
+
+
+
+

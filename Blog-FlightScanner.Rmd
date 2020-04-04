@@ -1,0 +1,14 @@
+---
+title: "Blog-FlightScanner"
+---
+
+### **Project for STAT 585: FlightScanner**  
+
+Web scraping/crawling flight information from SkyScanner API (https://www.skyscanner.com/). Keeping track of flight price will help us choose best flights and save money without spending too much time on searching.
+
+-- [Package Website](https://minzhang95.github.io/flightscanner/)  
+-- [Github](https://github.com/MinZhang95/flightscanner)  
+-- Author: Dapeng Hu, Yang Qiao, Min Zhang, Xin Zhang, Zerui Zhang 
+
+
+

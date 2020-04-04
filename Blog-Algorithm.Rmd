@@ -1,0 +1,79 @@
+---
+title: 'Blog: 算法学习python'
+---
+### **学渣学习计划**
+虽然不能坚持，但是仪式感是要有的！
+
+#### **Union Find**
+```r
+# Union Find 写作框架
+## setup
+parents = [i for i in range(n)]
+ranks = [0 for i in range(n)]
+## define find func and union func
+def find(x):
+  if x != parents[x]:
+      parents[x] = find(parents[x])
+  return parents[x]
+def union(x,y):
+  px, py = find(x), find(y)
+    if ranks[px] > ranks[py]: 
+      parents[py] = px
+    if ranks[px] < ranks[py]: 
+      parents[px] = py
+    if ranks[px] == ranks[py]: 
+      parents[py] = px
+      ranks[px] += 1
+```
+
+#### **Sliding Window**
+```r
+# Sliding Window 写作框架
+res, start, end = 0, 0, 0
+while end < len(s):
+  <!-- moving end -->
+  <!-- updating cost -->
+  while cost > threshold:
+    <!-- moving start -->
+    start += 1
+    res = max(res, end - start + 1)
+  end += 1
+return res
+```
+
+#### **二分法**
+```r
+# 二分法写作框架
+while e - s > 1:
+  mid = (s + e) / 2
+  if cond1: s = mid
+  else: e = mid
+if cond2:
+  return s
+else:
+  return e
+```
+
+#### **最大公约数 gcd**
+```r
+def gcd(self,x,y):
+        return x if y == 0 else self.gcd(y, x % y)
+```
+#### **最小公倍数 lcm**
+```r
+def lcm(self,x,y):
+        return (x * y) / self.gcd(x,y)
+```
+
+#### **基本语句**
+```r
+# Find the index 
+nums.index(max(nums))
+
+# Generate a dict with two keys 
+collections.defaultdict(lambda: collections.defaultdict(int))
+
+# sort with two key
+d.sort(lambda x:(len(x),x))
+```
+

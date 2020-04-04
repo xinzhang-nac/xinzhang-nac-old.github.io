@@ -1,0 +1,41 @@
+---
+title: 'Publication-N.A.C'
+---
+&nbsp;
+
+### **Publication**  
+
+**Communication-Efficient Network- Distributed Optimization with Differential-Coded Compressors**[[Link](https://arxiv.org/pdf/1912.03208.pdf)]  
+--Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
+--2020 IEEE Conference on Computer Communications (INFOCOM).   
+
+**Byzantine-Resilient SGD for Distributed Learning: A Lipschitz-Inspired Coordinate-wise Median Approach**[[Link](https://arxiv.org/pdf/1909.04532.pdf)]   
+--Haibo Yang, Xin Zhang, Minghong Fang, Jia Liu    
+--2019 IEEE Conference on Decision and Control (CDC).   
+
+**Compressed Distributed Gradient Descent: Communication-Efficient Consensus over Networks** [[Link](https://arxiv.org/pdf/1812.04048.pdf)]  
+--Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
+--2019 IEEE Conference on Computer Communications (INFOCOM). 
+
+**Drug–target interaction prediction by integrating multiview network data** [[Link](https://www.sciencedirect.com/science/article/pii/S1476927117301950)]   
+--Xin Zhang, Limin Li, Michael K.Ng, and Shuqin Zhang  
+--Computational biology and chemistry 69 (2017): 185-193    
+
+**Electricity consumer archetypes study based on functional data analysis and $k$-means algorithm** [[Link](http://new.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2015&filename=DWJS201511025&v=MDU3NzFOcm85SFlZUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTE9mWWVkcUZ5bmtWN3ZLSVRyQmZiRzRIOVQ=)]  
+--Xin Zhang, Weiguo Gao and Yun Su  
+--Power System Technology  39 (2015): 3153-3162.
+
+### **Preprint**  
+
+**Learning Coefficient Heterogeneity over Networks: A Distributed Tree-Based Fused-Lasso Approach** [[Link](https://arxiv.org/pdf/1905.11549.pdf)]   
+--Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley  
+--[Supplementary](files/Supp_MSTClustering_FLASSO_ADMM.pdf)
+
+**Taming Convergence for Asynchronous SGD with Unbounded Delay in Nonconvex Learning** [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
+--Xin Zhang, Jia Liu and Zhengyuan Zhu  
+
+### **Master Creative Componenet**  
+**Spatial CUSUM for Signal Region Detection** [[Link](https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1049&context=creativecomponents)]    
+
+
+

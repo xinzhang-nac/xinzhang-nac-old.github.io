@@ -1,0 +1,43 @@
+---
+title: 'Homepage-N.A.C'
+---
+  
+&nbsp;
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+## **Short Bio**
+<img src="images/IMG_8623.jpg" style="width:20%; border:5px solid ; margin-right: 10px; margin-top: -50px" align="right">
+
+
+Hi! I’m Xin Zhang.  
+
+I'm currently a Ph.D. student in Statistics at [Iowa State University](https://www.iastate.edu).  
+
+I obtained my B.S in Mathematics from [Fudan University](http://www.fudan.edu.cn), Shanghai, China. 
+
+My full CV is available [here](files/XinZhang_CV.pdf).
+
+## **Education**
+
+Ph.D. Student in Statistics, Iowa State University, Ames, IA [Aug 2016 – May 2021]{style="float:right"}  
+
+M.S. in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2018]{style="float:right"}  
+
+B.S. in Mathematics, Fudan University, Shanghai, China [Jun 2012 – Jun 2016]{style="float:right"}  
+
+## **Awards**
+
+**The Holly C. and E. Beth Fryer Award in Statistics**, Stat. Dept.@ISU, 2018.    
+**Outstanding Graduate of Fudan Unversity**, @FDU, 2016  
+**First Prize of the scholarship for Outstanding Students at Fudan University** ($5\%$), @FDU, 2015
+
+## **Recent Publications**
+[*(More pulications and manuscripts)*](https://xinzhang-nac.github.io/publications.html)   
+-- Zhang, Xin, et al. "Communication-Efficient Network- Distributed Optimization with Differential-Coded Compressors." *IEEE INFOCOM 2020-IEEE Conference on Computer Communications.* IEEE, 2020.  
+
+## **Ongoing Project**
+[*(Details on more ongoing and past projects)*](https://xinzhang-nac.github.io/Project.html)   
+-- Spatial Clustering Analysis  
+-- Distributed Network Optimization
+
+

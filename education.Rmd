@@ -1,0 +1,37 @@
+---
+title: 'Experience-N.A.C'
+---
+&nbsp;
+
+### **Education**
+
+Ph.D. Student in Statistics, Iowa State University, Ames, IA [Aug 2016 – Current]{style="float:right"}  
+-- Advisors: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu) and [Dr. Jia Liu](http://web.cs.iastate.edu/~jialiu/)
+
+M.S. in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2018]{style="float:right"}  
+-- Advisor: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu)  
+-- Topic: Spatial CUSUM for Signal Region Detection
+
+B.S. in Mathematics, Fudan University, Shanghai, China [Jun 2012 – Jun 2016]{style="float:right"}  
+
+### **Work Experience**
+Research Assistant@ [Network Informatics and Learning Research Group](http://web.cs.iastate.edu/~jialiu/group/), Ames, IA [Dec 2017 – Current]{style="float:right"}  
+-- Advisor: [Dr. Jia Liu](http://web.cs.iastate.edu/~jialiu/)
+
+Research Assistant@ [Center for Survey Statistics & Methodology](https://www.cssm.iastate.edu), Ames, IA [Dec 2016 – Current]{style="float:right"}    
+-- Advisor: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu)
+
+Teaching Assistant @ Dept. Stat, Iowa State University, Ames, IA [Aug 2016 – Jun 2017]{style="float:right"}  
+-- STAT 341(Spring 2017), Instructor: Dr.Kevin Kasper  
+-- STAT 430(Fall 2016), Instructor: Dr. 
+Kris De Brabanter  
+-- STAT 341(Fall 2016), Instructor: Dr.Kevin Kasper 
+
+### **Social Service**
+
+Volunteer@ Shanghai Zoo, Shanghai, China [Aug 2013 – Jun 2016]{style="float:right"}  
+
+
+
+
+

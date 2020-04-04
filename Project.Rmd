@@ -1,0 +1,143 @@
+---
+title: 'Project-N.A.C'
+---
+&nbsp;
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.collapsible {
+  background-color: #b2b2b2;
+  color: black;
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+<!-- <IMG SRC="files/case1.gif"> -->
+### **Ongoing Projects**
+
+**Spatial Coefficient Cluster Analysis**  [Jan 2018 – Current]{style="float:right"}
+
+-- Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)  
+
+* The recent development of the remote sensing and satellite technology make the large-scale datasets become avaliable. In this project, we aim to study on the spatial pattern of the relationship between a response variable and a set of explanatory variables. Our method is to detect spatially contiguous clusters based on the model coefficients.   
+* [Preprint](https://arxiv.org/pdf/1905.11549.pdf)
+<center>
+|   | 
+|---|
+| ![](images/SCC/SCC2.png){width=250px} |
+</center>
+
+&nbsp;
+**Decentralized Algorithm Design**  [Dec 2017 – Current]{style="float:right"}   
+-- Advisor: Dr. Jia Liu, (CS Dept.@ISU)  
+
+* Decentralized network consensus optimization has received increasing attention in recent years and has found important applications in many scientific and engineering fields. In this project, we focus on improving the decentralized algorithm from the perspectives of computation speed, communicaiton efficient and data privacy etc. 
+* [INFOCOM'19](https://arxiv.org/pdf/1812.04048.pdf), [INFOCOM'20](https://arxiv.org/pdf/1912.03208.pdf),
+[Preprint](https://arxiv.org/pdf/2001.03836.pdf)
+
+<center>
+|   |   |   |
+|---|---|---|
+|![](images/Dist_Opt/D2.png){width=220px}|![](images/Dist_Opt/D3.png){width=240px}|![](images/Dist_Opt/D4.png){width=200px}|
+</center>
+
+&nbsp;
+
+### **Past Projects**
+
+<button class="collapsible">**Robust Distributed Algorithm Design**  [Dec 2017 – Dec 2019]{style="float:right"}  </button>
+<div class="content">
+-- Advisor: Dr. Jia Liu, (CS Dept.@ISU)  
+
+* Distributed stochastic optimization strategies have been adopted to facilitate deep machine learning training. In this project, we aim to design and study the distributed stochastic algorithms with the tolerance of Asynchronous and Byzantine workerss.  
+* [CDC'19](https://arxiv.org/pdf/1909.04532.pdf), [Preprint](https://arxiv.org/pdf/1805.09470.pdf)  
+
+<center>
+|   |
+|---|
+|![](images/Dist_Opt/D1.png){width=220px}|
+</center>
+
+</div>
+&nbsp;
+<button class="collapsible">**Spatial Weak Signal Detection**  [Dec 2016 – May 2018]{style="float:right"}  </button>
+<div class="content">
+-- Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)  
+
+* We propose a detection method (SCUSUM) to detect weak spatial signals, which is based on the conventional CUSUM metnod for change-point detection. The statistical properties of SCUSUM are analyzed in our work, which imply that this method could identify the abnormal region w.h.p. We apply this method to fMRI data to identify the active regions.   
+* [Preprint](https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1049&context=creativecomponents)
+  
+<center>
+|   |   |   |   |
+|---|---|---|---|
+|![](images/SCUSUM/S1.png){width=240px}| ![](images/SCUSUM/S2.png){width=240px} |![](images/SCUSUM/S4.png){width=180px} |![](images/SCUSUM/S5.png){width=180px} |
+</center>
+</div>
+&nbsp;
+<button class="collapsible">**Drug-Target Interaction Prediction**  [Sept 2014 – Jun 2016]{style="float:right"}  </button>
+<div class="content">
+-- Advisor: Dr. Shuqin Zhang (Math Dept.@FDU)   
+
+* We propose a multiview drug-target interaction prediction method (MVDTI) based on network clustering and co-training. This method can identify the drug-target clusters in both drug and target protein similarity network. We predict potential DTI pairs based on LINCS database and conducting enrichment analysis on the detected co-modules to assess the predition accuracy.  
+* [Computational Biology and Chemistry'17](https://www.sciencedirect.com/science/article/pii/S1476927117301950)
+
+<center>
+|   |   |   |
+|---|---|---|
+|![](images/DTI/DTI_2.png){width=150px}| ![](images/DTI/DTI_3.png){width=330px} |![](images/DTI/DTI_1.png){width=220px} |
+</center>
+</div>
+&nbsp;
+<button class="collapsible">**Electricity Consumer Characteristics Study**  [May 2015 – Jun 2016]{style="float:right"}  </button>
+<div class="content">
+-- Advisor: Dr. Weiguo Gao (Math Dept.@FDU)  
+
+* We apply the kernel method to estimate continuous curves of daily data with missing value. Then the functional k-means algorithm is conducted on the electricity consumption data to cluster Consumers in Shanghai.  
+* [Power System Technology'15](http://new.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2015&filename=DWJS201511025&v=MDU3NzFOcm85SFlZUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTE9mWWVkcUZ5bmtWN3ZLSVRyQmZiRzRIOVQ=)
+
+<center>
+|   |   |
+|---|---|
+|![](images/Electricity/ele1.png){width=300px}| ![](images/Electricity/ele2.png){width=300px} |
+</center>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
