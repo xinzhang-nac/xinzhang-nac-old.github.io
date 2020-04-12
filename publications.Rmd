@@ -7,7 +7,7 @@ title: 'Publication-N.A.C'
 
 **Private and Communication-Efficient Edge Learning: A Sparse Differential Gaussian-Masking Distributed SGD Approach**[[Link](https://arxiv.org/pdf/2001.03836.pdf)]  
 --Xin Zhang, Minghong Fang, Jia Liu and Zhengyuan Zhu     
---2020 International Symposium on Theory, Algorithmic Foundations and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)   
+--2020 ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)   
 
 **Communication-Efficient Network- Distributed Optimization with Differential-Coded Compressors**[[Link](https://arxiv.org/pdf/1912.03208.pdf)]  
 --Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
