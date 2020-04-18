@@ -32,7 +32,7 @@ title: 'Publication-N.A.C'
 ### **Preprint**  
 
 **Learning Coefficient Heterogeneity over Networks: A Distributed Tree-Based Fused-Lasso Approach** [[Link](https://arxiv.org/pdf/1905.11549.pdf)]   
---Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley  
+--Xin Zhang, Jia Liu and Zhengyuan Zhu     
 --[Supplementary](files/Supp_MSTClustering_FLASSO_ADMM.pdf)
 
 **Taming Convergence for Asynchronous SGD with Unbounded Delay in Nonconvex Learning** [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
