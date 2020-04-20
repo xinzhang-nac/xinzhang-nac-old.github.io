@@ -5,6 +5,10 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  
 
+**Adaptive Multi-Hierarchical signSGD for Communication-Efficient Distributed Optimization**[[Link]()]     
+--Haibo Yang, Xin Zhang, Minghong Fang, Jia Liu    
+--2020 IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)     
+
 **Private and Communication-Efficient Edge Learning: A Sparse Differential Gaussian-Masking Distributed SGD Approach**[[Link](https://arxiv.org/pdf/2001.03836.pdf)]  
 --Xin Zhang, Minghong Fang, Jia Liu and Zhengyuan Zhu     
 --2020 ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)   
