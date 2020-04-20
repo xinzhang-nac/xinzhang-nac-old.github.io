@@ -15,7 +15,7 @@ title: 'Publication-N.A.C'
 
 **Communication-Efficient Network- Distributed Optimization with Differential-Coded Compressors**[[Link](https://arxiv.org/pdf/1912.03208.pdf)]  
 --Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
---2020 IEEE Conference on Computer Communications (INFOCOM).   
+--2020 IEEE International Conference on Computer Communications (INFOCOM).   
 
 **Byzantine-Resilient SGD for Distributed Learning: A Lipschitz-Inspired Coordinate-wise Median Approach**[[Link](https://arxiv.org/pdf/1909.04532.pdf)]   
 --Haibo Yang, Xin Zhang, Minghong Fang, Jia Liu    
@@ -23,7 +23,7 @@ title: 'Publication-N.A.C'
 
 **Compressed Distributed Gradient Descent: Communication-Efficient Consensus over Networks** [[Link](https://arxiv.org/pdf/1812.04048.pdf)]  
 --Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
---2019 IEEE Conference on Computer Communications (INFOCOM). 
+--2019 IEEE International Conference on Computer Communications (INFOCOM). 
 
 **Drug–target interaction prediction by integrating multiview network data** [[Link](https://www.sciencedirect.com/science/article/pii/S1476927117301950)]   
 --Xin Zhang, Limin Li, Michael K.Ng, and Shuqin Zhang  
