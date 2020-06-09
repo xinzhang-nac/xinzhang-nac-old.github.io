@@ -13,9 +13,9 @@ library(lubridate)
 load('tour_shiny/visited_place.RData')
 # visited_places<- rbind(visited_places,
 #                        data.frame(
-#                          place=c('Denver, 2019 JSM~'),
-#                          longitude=c(-104.9903),
-#                          latitude=c(39.7392),
+#                          place=c('San Jose, 2020~'),
+#                          longitude=c(-121.8863),
+#                          latitude=c(37.3382),
 #                          country = 'United State'))
 # save(visited_places, file = 'tour_shiny/visited_place.RData')
 leaflet() %>%
