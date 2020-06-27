@@ -5,7 +5,7 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  
 
-**Adaptive Multi-Hierarchical signSGD for Communication-Efficient Distributed Optimization**[[Link]()]     
+**Adaptive Multi-Hierarchical signSGD for Communication-Efficient Distributed Optimization**[[Link](http://web.cs.iastate.edu/~jialiu/publications/sign2SGD.pdf)]     
 --Haibo Yang, Xin Zhang, Minghong Fang, Jia Liu    
 --2020 IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)     
 
