@@ -5,13 +5,17 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  
 
+<!-- **Taming Convergence for Asynchronous SGD with Unbounded Delay in Nonconvex Learning** [[Link](https://arxiv.org/pdf/1805.09470.pdf)]   -->
+<!-- --Xin Zhang, Jia Liu and Zhengyuan Zhu   -->
+<!-- --2020 IEEE Conference on Decision and Control (CDC).         -->
+
 **Adaptive Multi-Hierarchical signSGD for Communication-Efficient Distributed Optimization**[[Link](http://web.cs.iastate.edu/~jialiu/publications/sign2SGD.pdf)]     
 --Haibo Yang, Xin Zhang, Minghong Fang, Jia Liu    
---2020 IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)     
+--2020 IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC).     
 
 **Private and Communication-Efficient Edge Learning: A Sparse Differential Gaussian-Masking Distributed SGD Approach**[[Link](https://arxiv.org/pdf/2001.03836.pdf)]  
 --Xin Zhang, Minghong Fang, Jia Liu and Zhengyuan Zhu     
---2020 ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)   
+--2020 ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc).   
 
 **Communication-Efficient Network- Distributed Optimization with Differential-Coded Compressors**[[Link](https://arxiv.org/pdf/1912.03208.pdf)]  
 --Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
@@ -39,8 +43,6 @@ title: 'Publication-N.A.C'
 --Xin Zhang, Jia Liu and Zhengyuan Zhu     
 --[Supplementary](files/Supp_MSTClustering_FLASSO_ADMM.pdf)
 
-**Taming Convergence for Asynchronous SGD with Unbounded Delay in Nonconvex Learning** [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
---Xin Zhang, Jia Liu and Zhengyuan Zhu  
 
 ### **Master Creative Componenet**  
 **Spatial CUSUM for Signal Region Detection** [[Link](https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1049&context=creativecomponents)]    
