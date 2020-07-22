@@ -72,7 +72,7 @@ title: 'Project-N.A.C'
 
 * Distributed stochastic optimization strategies have been adopted to facilitate deep machine learning training. In this project, we aim to design and study the distributed stochastic algorithms with the tolerance of Asynchronous and Byzantine workerss.  
 * [CDC'19](https://arxiv.org/pdf/1909.04532.pdf),
-[SPAWC'20](),[Preprint](https://arxiv.org/pdf/1805.09470.pdf)   
+[SPAWC'20](http://web.cs.iastate.edu/~jialiu/publications/sign2SGD.pdf),[CDC'20](https://arxiv.org/pdf/1805.09470.pdf)   
 
 <center>
 |   |
