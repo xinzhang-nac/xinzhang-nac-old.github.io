@@ -5,9 +5,9 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  
 
-<!-- **Taming Convergence for Asynchronous SGD with Unbounded Delay in Nonconvex Learning** [[Link](https://arxiv.org/pdf/1805.09470.pdf)]   -->
-<!-- --Xin Zhang, Jia Liu and Zhengyuan Zhu   -->
-<!-- --2020 IEEE Conference on Decision and Control (CDC).         -->
+**Taming Convergence for Asynchronous SGD with Unbounded Delay in Nonconvex Learning** [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
+--Xin Zhang, Jia Liu and Zhengyuan Zhu    
+--2020 IEEE Conference on Decision and Control (CDC).  
 
 **Adaptive Multi-Hierarchical signSGD for Communication-Efficient Distributed Optimization**[[Link](http://web.cs.iastate.edu/~jialiu/publications/sign2SGD.pdf)]     
 --Haibo Yang, Xin Zhang, Minghong Fang, Jia Liu    
