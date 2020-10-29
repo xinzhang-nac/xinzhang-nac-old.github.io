@@ -38,7 +38,7 @@ B.S. in Mathematics, Fudan University, Shanghai, China [Jun 2012 – Jun 2016]{s
 
 ## **Ongoing Project**
 [*(Details on more ongoing and past projects)*](https://xinzhang-nac.github.io/Project.html)   
--- Spatial Clustering Analysis  
+-- Spatial Model Heterogeneity Study    
 -- Distributed Network Optimization
 
 

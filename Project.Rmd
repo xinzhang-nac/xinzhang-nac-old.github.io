@@ -36,7 +36,7 @@ title: 'Project-N.A.C'
 <!-- <IMG SRC="files/case1.gif"> -->
 ### **Ongoing Projects**
 
-**Spatial Coefficient Cluster Analysis**  [Jan 2018 – Current]{style="float:right"}
+**Spatial Model Heterogeneity Study**  [Jan 2018 – Current]{style="float:right"}
 
 -- Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)  
 
