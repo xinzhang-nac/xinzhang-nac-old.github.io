@@ -5,6 +5,10 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  
 
+**Low Sample and Communication Complexities in Decentralized Learning: A Triple Hybrid Approach** [[Link]()]    
+--Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
+--2021 IEEE International Conference on Computer Communications (INFOCOM).    
+
 **Taming Convergence for Asynchronous SGD with Unbounded Delay in Nonconvex Learning** [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
 --Xin Zhang, Jia Liu and Zhengyuan Zhu    
 --2020 IEEE Conference on Decision and Control (CDC).  
