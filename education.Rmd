@@ -5,7 +5,7 @@ title: 'Experience-N.A.C'
 
 ### **Education**
 
-Ph.D. Student in Statistics, Iowa State University, Ames, IA [Aug 2016 – Current]{style="float:right"}  
+Ph.D. Student in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2020]{style="float:right"}  
 -- Advisors: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu) and [Dr. Jia Liu](https://kevinliu-osu-ece.github.io)
 
 M.S. in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2018]{style="float:right"}  

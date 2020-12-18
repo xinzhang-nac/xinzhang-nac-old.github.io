@@ -19,7 +19,7 @@ My full CV is available [here](files/XinZhang_CV.pdf).
 
 ## **Education**
 
-Ph.D. Student in Statistics, Iowa State University, Ames, IA [Aug 2016 – May 2021]{style="float:right"}  
+Ph.D. Student in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2020]{style="float:right"}  
 
 M.S. in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2018]{style="float:right"}  
 
