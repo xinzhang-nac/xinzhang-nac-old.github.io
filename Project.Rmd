@@ -54,7 +54,8 @@ title: 'Project-N.A.C'
 
 * Decentralized network consensus optimization has received increasing attention in recent years and has found important applications in many scientific and engineering fields. In this project, we focus on improving the decentralized algorithm from the perspectives of computation speed, communication efficiency, and data privacy, etc.     
 * [INFOCOM'19](https://arxiv.org/pdf/1812.04048.pdf), [INFOCOM'20](https://arxiv.org/pdf/1912.03208.pdf),
-[Mobihoc'20](https://arxiv.org/pdf/2001.03836.pdf)
+[Mobihoc'20](https://arxiv.org/pdf/2001.03836.pdf),
+[INFOCOM'21]()   
 
 <center>
 |   |   |   |
