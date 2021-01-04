@@ -41,11 +41,14 @@ title: 'Publication-N.A.C'
 --Xin Zhang, Weiguo Gao and Yun Su  
 --Power System Technology  39 (2015): 3153-3162.
 
-### **Preprint**  
+### **Preprint & In Preparation**  
 
 **Learning Coefficient Heterogeneity over Networks: A Distributed Tree-Based Fused-Lasso Approach** [[Link](https://arxiv.org/pdf/1905.11549.pdf)]   
 --Xin Zhang, Jia Liu and Zhengyuan Zhu     
---[Supplementary](files/Supp_MSTClustering_FLASSO_ADMM.pdf)
+--[Supplementary](files/Supp_MSTClustering_FLASSO_ADMM.pdf)   
+
+**Spatial Heterogeneous Additive Partial Linear Model: A Joint Approach of Bivariate Spline and Forest Lasso** [[Link]()]   
+--Xin Zhang, Shan Yu, Xin Wang and Zhengyuan Zhu       
 
 
 ### **Master Creative Componenet**  

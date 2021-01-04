@@ -414,38 +414,172 @@ $(document).ready(function () {
 </head>
 <body>
 <!-- <IMG SRC="files/case1.gif"> -->
-<div id="ongoing-projects" class="section level3">
-<h3><strong>Ongoing Projects</strong></h3>
-<p><strong>Consensus Learning in Network System</strong> <span style="float:right">Dec 2017 – Dec 2020</span><br />
+<div id="ph.d.projects" class="section level3">
+<h3><strong>Ph.D. Projects</strong></h3>
+<p><strong>Consensus Learning in Distributed System</strong> <span style="float:right">Dec 2017 – Dec 2020</span><br />
 – Advisor: Dr. Jia Liu, (CS Dept.@ISU)</p>
 <ul>
-<li>Decentralized learning algorithms work with the computational system formed by a network of nodes, each of which can locally store the data and pass the message through the network links. The goal is to train a global learning model based on all nodes’ data through local computation and neighboring communication. Current decentralized learning methods suffer from 1) high computational complexity due to the large local datasets; 2) inefficient communication caused by the low network bandwidth and complex model structure; 3) significant loss of data privacy when unreliable nodes exist. My work focuses on designing decentralized algorithms that can overcome these problems.<br />
-</li>
-<li><a href="https://arxiv.org/pdf/1812.04048.pdf">INFOCOM’19</a>, <a href="https://arxiv.org/pdf/1912.03208.pdf">INFOCOM’20</a>, <a href="https://arxiv.org/pdf/2001.03836.pdf">Mobihoc’20</a>, <a href="">INFOCOM’21</a></li>
-</ul>
+<li>Distribued learning algorithms work with the system formed by a group of computational nodes, each of which can locally store the data and pass the message in the system. The goal of these algorithm is to train a global learning model based on all nodes’ data through local computation and neighboring communication. Current distributed learning methods suffer from 1) high sample complexity due to the large local datasets; 2) inefficient communication caused by the low network bandwidth and complex model structure; 3) significant loss of data privacy when untrustable nodes exist; 4) unreliable performance due to the asynchronous and byzantine nodes. Our work focuses on designing decentralized algorithms that can overcome these problems. The following table summarizes our works.<br />
+
 <center>
 <table>
+<thead>
+<tr class="header">
+<th align="center">Algorithm</th>
+<th align="center">System</th>
+<th align="center">Low Samp.</th>
+<th align="center">Low Commi.</th>
+<th align="center">Privacy</th>
+<th align="center">Robustness</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Dist_Opt/D2.png" width="220" /></td>
-<td><img src="images/Dist_Opt/D3.png" width="240" /></td>
-<td><img src="images/Dist_Opt/D4.png" width="200" /></td>
+<td align="center">ADC-DGD</td>
+<td align="center">P2P-Network</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center"><a href="https://arxiv.org/pdf/1812.04048.pdf">INFOCOM’19</a></td>
+</tr>
+<tr class="even">
+<td align="center">LICM-SGD</td>
+<td align="center">Star-Network</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center"><a href="https://arxiv.org/pdf/1909.04532.pdf">CDC’19</a></td>
+</tr>
+<tr class="odd">
+<td align="center">MH-signSGD</td>
+<td align="center">Star-Network</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/abstract/document/9154256">SPAWC’20</a></td>
+</tr>
+<tr class="even">
+<td align="center">Async-SGD/SGDI</td>
+<td align="center">Star-Network</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center"><a href="https://arxiv.org/pdf/1805.09470.pdf">CDC’20</a></td>
+</tr>
+<tr class="odd">
+<td align="center">DC-DGD</td>
+<td align="center">P2P-Network</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center"><a href="https://arxiv.org/pdf/1912.03208.pdf">INFOCOM’20</a></td>
+</tr>
+<tr class="even">
+<td align="center">SDM-DSGD</td>
+<td align="center">P2P-Network</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center"><a href="https://arxiv.org/pdf/2001.03836.pdf">MOBIHOC’20</a></td>
+</tr>
+<tr class="odd">
+<td align="center">TH-DSGD</td>
+<td align="center">P2P-Network</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center"><a href="">INFOCOM’21</a></td>
 </tr>
 </tbody>
 </table>
 </center>
+<center>
+<table>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="images/Dist_Opt/D1.png" alt="Star-Network" height="250" /></td>
+<td align="center"><img src="images/image_space.png" height="250" /></td>
+<td align="center"><img src="images/Dist_Opt/D2.png" alt="P2P-Network" height="250" /></td>
+</tr>
+<tr class="even">
+<td align="center">Star-Network</td>
+<td align="center"></td>
+<td align="center">P2P-Network</td>
+</tr>
+</tbody>
+</table>
+</center></li>
+</ul>
 <p> </p>
 <p><strong>Heterogeneous Modeling with Network Topology</strong> <span style="float:right">Jan 2018 – Dec 2020</span></p>
 <p>– Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)</p>
 <ul>
 <li>Heterogeneous modeling aims to simultaneously estimate model parameters and cluster observations based on model similarity, thus also known as model-based clustering analysis. To date, this topic has attracted a surge of research interests and found important applications in many scientific fields, such as personalized medicine, image analysis, and economic study, etc. Although various methods have been proposed, most of them tackle the problem without considering the underlying structure restriction among the observations. Additionally, to simultaneously solve the estimation and clustering tasks, existing methods (e.g., EM algorithm, pairwise fusion, etc.) often necessitate intensive computations. To address these issues, we proposed efficient fusion penalized methods by utilizing the network/graph structure of data while only requiring a low computation complexity.<br />
-</li>
-<li><a href="https://arxiv.org/pdf/1905.11549.pdf">Preprint</a>
+
+<center>
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Method</th>
+<th align="center">Model</th>
+<th align="center">Penalty</th>
+<th align="center"># Cluster Indiv.</th>
+<th align="center"># Local Obs.</th>
+<th align="center">Task</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">DTFLR</td>
+<td align="center">Linear Model</td>
+<td align="center">Tree Lasso</td>
+<td align="center"><span class="math inline">\(m = O(1)\)</span></td>
+<td align="center"><span class="math inline">\(n \rightarrow \infty\)</span></td>
+<td align="center">Distributed Data Integration</td>
+<td align="center"><a href="https://arxiv.org/pdf/1905.11549.pdf">Preprint</a></td>
+</tr>
+<tr class="even">
+<td align="center">SHAPLM</td>
+<td align="center">Partial Linear Model</td>
+<td align="center">Forest Lasso</td>
+<td align="center"><span class="math inline">\(m \rightarrow \infty\)</span></td>
+<td align="center"><span class="math inline">\(n = O(1)\)</span></td>
+<td align="center">Image Segmentation</td>
+<td align="center"><a href="">Preprint</a></td>
+</tr>
+</tbody>
+</table>
+</center>
 <center>
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/SCC/SCC1.png" width="250" /></td>
+<td align="center"><img src="images/HM/HM1.png" height="250" /></td>
+<td align="center"><img src="images/image_space.png" height="250" /></td>
+<td align="center"><img src="images/HM/HM2.png" height="250" /></td>
+</tr>
+<tr class="even">
+<td align="center">Distributed Data Integration</td>
+<td align="center"></td>
+<td align="center">Image Segmentation</td>
 </tr>
 </tbody>
 </table>
@@ -456,26 +590,8 @@ $(document).ready(function () {
 <div id="past-projects" class="section level3">
 <h3><strong>Past Projects</strong></h3>
 <button class="collapsible">
-<strong>Robust Distributed Algorithm Design</strong> <span style="float:right">Dec 2017 – Dec 2019</span>
+<strong>Spatial Weak Signal Detection</strong> <span style="float:right">Dec 2016 – May 2018</span>
 </button>
-<div class="content">
-<p>– Advisor: Dr. Jia Liu, (CS Dept.@ISU)</p>
-<ul>
-<li>Distributed stochastic optimization strategies have been adopted to facilitate deep machine learning training. In this project, we aim to design and study the distributed stochastic algorithms with the tolerance of Asynchronous and Byzantine workers.<br />
-</li>
-<li><a href="https://arxiv.org/pdf/1909.04532.pdf">CDC’19</a>, <a href="http://web.cs.iastate.edu/~jialiu/publications/sign2SGD.pdf">SPAWC’20</a>,<a href="https://arxiv.org/pdf/1805.09470.pdf">CDC’20</a></li>
-</ul>
-<center>
-<table>
-<tbody>
-<tr class="odd">
-<td><img src="images/Dist_Opt/D1.png" width="220" /></td>
-</tr>
-</tbody>
-</table>
-</center>
-</div>
-  <button class="collapsible"><strong>Spatial Weak Signal Detection</strong> <span style="float:right">Dec 2016 – May 2018</span> </button>
 <div class="content">
 <p>– Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)</p>
 <ul>
@@ -487,10 +603,10 @@ $(document).ready(function () {
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/SCUSUM/S1.png" width="240" /></td>
-<td><img src="images/SCUSUM/S2.png" width="240" /></td>
-<td><img src="images/SCUSUM/S4.png" width="180" /></td>
-<td><img src="images/SCUSUM/S5.png" width="180" /></td>
+<td align="center"><img src="images/SCUSUM/S1.png" width="240" /></td>
+<td align="center"><img src="images/SCUSUM/S2.png" width="240" /></td>
+<td align="center"><img src="images/SCUSUM/S4.png" width="180" /></td>
+<td align="center"><img src="images/SCUSUM/S5.png" width="180" /></td>
 </tr>
 </tbody>
 </table>
@@ -508,9 +624,9 @@ $(document).ready(function () {
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/DTI/DTI_2.png" width="150" /></td>
-<td><img src="images/DTI/DTI_3.png" width="330" /></td>
-<td><img src="images/DTI/DTI_1.png" width="220" /></td>
+<td align="center"><img src="images/DTI/DTI_2.png" width="150" /></td>
+<td align="center"><img src="images/DTI/DTI_3.png" width="330" /></td>
+<td align="center"><img src="images/DTI/DTI_1.png" width="220" /></td>
 </tr>
 </tbody>
 </table>
@@ -528,8 +644,8 @@ $(document).ready(function () {
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Electricity/ele1.png" width="300" /></td>
-<td><img src="images/Electricity/ele2.png" width="300" /></td>
+<td align="center"><img src="images/Electricity/ele1.png" width="300" /></td>
+<td align="center"><img src="images/Electricity/ele2.png" width="300" /></td>
 </tr>
 </tbody>
 </table>

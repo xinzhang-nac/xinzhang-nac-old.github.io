@@ -34,60 +34,57 @@ title: 'Project-N.A.C'
 </head>
 <body>
 <!-- <IMG SRC="files/case1.gif"> -->
-### **Ongoing Projects**
+### **Ph.D. Projects**
 
-**Consensus Learning in Network System**  [Dec 2017 – Dec 2020]{style="float:right"}   
--- Advisor: Dr. Jia Liu, (CS Dept.@ISU)  
+**Consensus Learning in Distributed System**  [Dec 2017 – Dec 2020]{style="float:right"}   
+-- Advisor: Dr. Jia Liu, (CS Dept.@ISU)   
 
-* Decentralized learning algorithms work with the computational system formed by a network of nodes, each of which can locally store the data and pass the message through the network links. The goal is to train a global learning model based on all nodes’ data through local computation and neighboring communication. Current decentralized learning methods suffer from 1) high computational complexity due to the large local datasets; 2) inefficient communication caused by the low network bandwidth and complex model structure; 3) significant loss of data privacy when unreliable nodes exist. My work focuses on designing decentralized algorithms that can overcome these problems.       
-* [INFOCOM'19](https://arxiv.org/pdf/1812.04048.pdf), [INFOCOM'20](https://arxiv.org/pdf/1912.03208.pdf),
-[Mobihoc'20](https://arxiv.org/pdf/2001.03836.pdf),
-[INFOCOM'21]()   
-
+* Distribued learning algorithms work with the system formed by a group of computational nodes, each of which can locally store the data and pass the message in the system. The goal of these algorithm is to train a global learning model based on all nodes’ data through local computation and neighboring communication. Current distributed learning methods suffer from 1) high sample complexity due to the large local datasets; 2) inefficient communication caused by the low network bandwidth and complex model structure; 3) significant loss of data privacy when untrustable nodes exist; 4) unreliable performance due to the asynchronous and byzantine nodes. Our work focuses on designing decentralized algorithms that can overcome these problems. The following table summarizes our works.   
+  <center>
+| Algorithm | System | Low Samp. | Low Commi. | Privacy  | Robustness | Reference |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|ADC-DGD  | P2P-Network| -- | &#10004;  |-- | --| [INFOCOM'19](https://arxiv.org/pdf/1812.04048.pdf) | 
+|LICM-SGD  | Star-Network| -- | --  |-- | &#10004; | [CDC'19](https://arxiv.org/pdf/1909.04532.pdf)| 
+| MH-signSGD| Star-Network| -- | &#10004;  |-- |  &#10004;| [SPAWC'20](https://ieeexplore.ieee.org/abstract/document/9154256) | 
+|Async-SGD/SGDI  | Star-Network| -- | --  |-- | &#10004; | [CDC'20](https://arxiv.org/pdf/1805.09470.pdf) | 
+|DC-DGD |P2P-Network| -- |&#10004;| --|-- | [INFOCOM'20](https://arxiv.org/pdf/1912.03208.pdf)|
+|SDM-DSGD |P2P-Network| -- |&#10004; |&#10004;| --|  [MOBIHOC'20](https://arxiv.org/pdf/2001.03836.pdf)|
+|TH-DSGD |P2P-Network| &#10004; | &#10004; |-- |-- | [INFOCOM'21]() |
+</center>
 <center>
-|   |   |   |
-|---|---|---|
-|![](images/Dist_Opt/D2.png){width=220px}|![](images/Dist_Opt/D3.png){width=240px}|![](images/Dist_Opt/D4.png){width=200px}|
+|   |   |    | 
+|:-:|:-:|:-:|
+|![Star-Network](images/Dist_Opt/D1.png){height=250px}|![](images/image_space.png){height=250px} |![P2P-Network](images/Dist_Opt/D2.png){height=250px}|
+|Star-Network| |    P2P-Network|
 </center>
 
 &nbsp;
 
 **Heterogeneous Modeling with Network Topology**  [Jan 2018 – Dec 2020]{style="float:right"}
 
--- Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)  
+-- Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)    
 
 * Heterogeneous modeling aims to simultaneously estimate model parameters and cluster observations based on model similarity, thus also known as model-based clustering analysis. 
 To date, this topic has attracted a surge of research interests and found important applications in many scientific fields, such as personalized medicine, image analysis, and economic study, etc.
 Although various methods have been proposed, most of them tackle the problem without considering the underlying structure restriction among the observations. 
 Additionally, to simultaneously solve the estimation and clustering tasks, existing methods (e.g., EM algorithm, pairwise fusion, etc.) often necessitate intensive computations.
-To address these issues, we proposed efficient fusion penalized methods by utilizing the network/graph structure of data while only requiring a low computation complexity.       
-* [Preprint](https://arxiv.org/pdf/1905.11549.pdf)
+To address these issues, we proposed efficient fusion penalized methods by utilizing the network/graph structure of data while only requiring a low computation complexity.     
+  <center>
+| Method | Model | Penalty | # Cluster Indiv. | # Local Obs. | Task | Reference |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|DTFLR  | Linear Model | Tree Lasso | $m = O(1)$  | $n \rightarrow \infty$ | Distributed Data Integration | [Preprint](https://arxiv.org/pdf/1905.11549.pdf) | 
+|SHAPLM | Partial Linear Model | Forest Lasso | $m \rightarrow \infty$  | $n = O(1)$  | Image Segmentation | [Preprint]() | 
+</center>
 <center>
-|   | 
-|---|
-| ![](images/SCC/SCC1.png){width=250px} |
+|   |    |     | 
+|:-:|:-:|:-:|
+|![](images/HM/HM1.png){height=250px} | ![](images/image_space.png){height=250px} | ![](images/HM/HM2.png){height=250px} |
+| Distributed Data Integration |    |  Image Segmentation   | 
 </center>
 
 &nbsp;
 
 ### **Past Projects**
-
-<button class="collapsible">**Robust Distributed Algorithm Design**  [Dec 2017 – Dec 2019]{style="float:right"}  </button>
-<div class="content">
--- Advisor: Dr. Jia Liu, (CS Dept.@ISU)  
-
-* Distributed stochastic optimization strategies have been adopted to facilitate deep machine learning training. In this project, we aim to design and study the distributed stochastic algorithms with the tolerance of Asynchronous and Byzantine workers.    
-* [CDC'19](https://arxiv.org/pdf/1909.04532.pdf),
-[SPAWC'20](http://web.cs.iastate.edu/~jialiu/publications/sign2SGD.pdf),[CDC'20](https://arxiv.org/pdf/1805.09470.pdf)   
-
-<center>
-|   |
-|---|
-|![](images/Dist_Opt/D1.png){width=220px}|
-</center>
-
-</div>
-&nbsp;
 <button class="collapsible">**Spatial Weak Signal Detection**  [Dec 2016 – May 2018]{style="float:right"}  </button>
 <div class="content">
 -- Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)  
@@ -97,7 +94,7 @@ To address these issues, we proposed efficient fusion penalized methods by utili
   
 <center>
 |   |   |   |   |
-|---|---|---|---|
+|:-:|:-:|:-:|:-:|
 |![](images/SCUSUM/S1.png){width=240px}| ![](images/SCUSUM/S2.png){width=240px} |![](images/SCUSUM/S4.png){width=180px} |![](images/SCUSUM/S5.png){width=180px} |
 </center>
 </div>
@@ -111,7 +108,7 @@ To address these issues, we proposed efficient fusion penalized methods by utili
 
 <center>
 |   |   |   |
-|---|---|---|
+|:-:|:-:|:-:|
 |![](images/DTI/DTI_2.png){width=150px}| ![](images/DTI/DTI_3.png){width=330px} |![](images/DTI/DTI_1.png){width=220px} |
 </center>
 </div>
@@ -125,7 +122,7 @@ To address these issues, we proposed efficient fusion penalized methods by utili
 
 <center>
 |   |   |
-|---|---|
+|:-:|:-:|
 |![](images/Electricity/ele1.png){width=300px}| ![](images/Electricity/ele2.png){width=300px} |
 </center>
 </div>

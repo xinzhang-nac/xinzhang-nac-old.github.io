@@ -12,7 +12,7 @@ M.S. in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2018]{styl
 -- Advisor: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu)  
 -- Topic: Spatial CUSUM for Signal Region Detection
 
-B.S. in Mathematics, Fudan University, Shanghai, China [Jun 2012 – Jun 2016]{style="float:right"}  
+B.S. in Mathematics, Fudan University, Shanghai, China [Jun 2012 – Jun 2016]{style="float:right"} 
 
 ### **Work Experience**
 Research Assistant@ [Network Informatics and Learning Research Group](http://web.cs.iastate.edu/~jialiu/group/), Ames, IA [Dec 2017 – Current]{style="float:right"}  
@@ -31,7 +31,12 @@ Kris De Brabanter
 
 Volunteer@ Shanghai Zoo, Shanghai, China [Aug 2013 – Jun 2016]{style="float:right"}  
 
+## **Awards**
 
+**Vince Sposito Statistical Computing Award**, Stat. Dept.@ISU, 2020.    
+**The Holly C. and E. Beth Fryer Award in Statistics**, Stat. Dept.@ISU, 2018.    
+**Outstanding Graduate of Fudan Unversity**, @FDU, 2016  
+**First Prize of the scholarship for Outstanding Students at Fudan University** ($5\%$), @FDU, 2015      
 
 
 
