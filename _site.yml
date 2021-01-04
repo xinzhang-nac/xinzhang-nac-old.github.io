@@ -4,9 +4,6 @@ navbar:
   title: "Home"
   href: index.html
   left:
-    - text: "Experience"
-      icon: fa-university
-      href: education.html
     - text: "Research"
       icon: fa-project-diagram
       menu:
@@ -14,8 +11,6 @@ navbar:
           href: Project.html
         - text: "Publication"
           href: publications.html
-        - text: "Shiny App"
-          href: shiny.html
     - text: "Travelling"
       icon: fa-globe-asia
       menu:

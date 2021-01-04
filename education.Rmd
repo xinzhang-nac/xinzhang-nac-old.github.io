@@ -3,22 +3,28 @@ title: 'Experience-N.A.C'
 ---
 &nbsp;
 
+ - text: "Experience"
+      icon: fa-university
+      href: education.html
+
 ### **Education**
 
-Ph.D. Student in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2020]{style="float:right"}  
--- Advisors: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu) and [Dr. Jia Liu](https://kevinliu-osu-ece.github.io)
+Ph.D. in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2020]{style="float:right"}  
+-- Advisors: [Dr. Zhengyuan Zhu](https://www.stat.iastate.edu/people/zhengyuan-zhu) and [Dr. Jia Liu](https://kevinliu-osu-ece.github.io)    
+-- Topic: Topics in model heterogeneity study and decentralized consensus learning over networks   
+   
 
 M.S. in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2018]{style="float:right"}  
--- Advisor: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu)  
+-- Advisor: [Dr. Zhengyuan Zhu](https://www.stat.iastate.edu/people/zhengyuan-zhu)  
 -- Topic: Spatial CUSUM for Signal Region Detection
 
 B.S. in Mathematics, Fudan University, Shanghai, China [Jun 2012 – Jun 2016]{style="float:right"} 
 
 ### **Work Experience**
-Research Assistant@ [Network Informatics and Learning Research Group](http://web.cs.iastate.edu/~jialiu/group/), Ames, IA [Dec 2017 – Current]{style="float:right"}  
+Research Assistant@ [Network Informatics and Learning Research Group](https://kevinliu-osu-ece.github.io/group/index.html), Ames, IA [Dec 2017 – Dec 2020]{style="float:right"}  
 -- Advisor: [Dr. Jia Liu](http://web.cs.iastate.edu/~jialiu/)
 
-Research Assistant@ [Center for Survey Statistics & Methodology](https://www.cssm.iastate.edu), Ames, IA [Dec 2016 – Current]{style="float:right"}    
+Research Assistant@ [Center for Survey Statistics & Methodology](https://www.cssm.iastate.edu), Ames, IA [Dec 2016 – Dec 2020]{style="float:right"}    
 -- Advisor: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu)
 
 Teaching Assistant @ Dept. Stat, Iowa State University, Ames, IA [Aug 2016 – Jun 2017]{style="float:right"}  
@@ -37,6 +43,8 @@ Volunteer@ Shanghai Zoo, Shanghai, China [Aug 2013 – Jun 2016]{style="float:ri
 **The Holly C. and E. Beth Fryer Award in Statistics**, Stat. Dept.@ISU, 2018.    
 **Outstanding Graduate of Fudan Unversity**, @FDU, 2016  
 **First Prize of the scholarship for Outstanding Students at Fudan University** ($5\%$), @FDU, 2015      
+
+
 
 
 
