@@ -36,23 +36,10 @@ title: 'Project-N.A.C'
 <!-- <IMG SRC="files/case1.gif"> -->
 ### **Ongoing Projects**
 
-**Spatial Model Heterogeneity Study**  [Jan 2018 – Dec 2020]{style="float:right"}
-
--- Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)  
-
-* The recent development of remote sensing and satellite technology makes large-scale datasets become available. In this project, we aim to study the spatial pattern of the relationship between a response variable and a set of explanatory variables. Our method is to detect spatially contiguous clusters based on the model coefficients.      
-* [Preprint](https://arxiv.org/pdf/1905.11549.pdf)
-<center>
-|   | 
-|---|
-| ![](images/SCC/SCC1.png){width=250px} |
-</center>
-
-&nbsp;
-**Decentralized Algorithm Design**  [Dec 2017 – Dec 2020]{style="float:right"}   
+**Consensus Learning in Network System**  [Dec 2017 – Dec 2020]{style="float:right"}   
 -- Advisor: Dr. Jia Liu, (CS Dept.@ISU)  
 
-* Decentralized network consensus optimization has received increasing attention in recent years and has found important applications in many scientific and engineering fields. In this project, we focus on improving the decentralized algorithm from the perspectives of computation speed, communication efficiency, and data privacy, etc.     
+* Decentralized learning algorithms work with the computational system formed by a network of nodes, each of which can locally store the data and pass the message through the network links. The goal is to train a global learning model based on all nodes’ data through local computation and neighboring communication. Current decentralized learning methods suffer from 1) high computational complexity due to the large local datasets; 2) inefficient communication caused by the low network bandwidth and complex model structure; 3) significant loss of data privacy when unreliable nodes exist. My work focuses on designing decentralized algorithms that can overcome these problems.       
 * [INFOCOM'19](https://arxiv.org/pdf/1812.04048.pdf), [INFOCOM'20](https://arxiv.org/pdf/1912.03208.pdf),
 [Mobihoc'20](https://arxiv.org/pdf/2001.03836.pdf),
 [INFOCOM'21]()   
@@ -61,6 +48,24 @@ title: 'Project-N.A.C'
 |   |   |   |
 |---|---|---|
 |![](images/Dist_Opt/D2.png){width=220px}|![](images/Dist_Opt/D3.png){width=240px}|![](images/Dist_Opt/D4.png){width=200px}|
+</center>
+
+&nbsp;
+
+**Heterogeneous Modeling with Network Topology**  [Jan 2018 – Dec 2020]{style="float:right"}
+
+-- Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)  
+
+* Heterogeneous modeling aims to simultaneously estimate model parameters and cluster observations based on model similarity, thus also known as model-based clustering analysis. 
+To date, this topic has attracted a surge of research interests and found important applications in many scientific fields, such as personalized medicine, image analysis, and economic study, etc.
+Although various methods have been proposed, most of them tackle the problem without considering the underlying structure restriction among the observations. 
+Additionally, to simultaneously solve the estimation and clustering tasks, existing methods (e.g., EM algorithm, pairwise fusion, etc.) often necessitate intensive computations.
+To address these issues, we proposed efficient fusion penalized methods by utilizing the network/graph structure of data while only requiring a low computation complexity.       
+* [Preprint](https://arxiv.org/pdf/1905.11549.pdf)
+<center>
+|   | 
+|---|
+| ![](images/SCC/SCC1.png){width=250px} |
 </center>
 
 &nbsp;
