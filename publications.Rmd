@@ -47,7 +47,7 @@ title: 'Publication-N.A.C'
 --Xin Zhang, Jia Liu and Zhengyuan Zhu     
 --[Supplementary](files/Supp_MSTClustering_FLASSO_ADMM.pdf)   
 
-**Spatial Heterogeneous Additive Partial Linear Model: A Joint Approach of Bivariate Spline and Forest Lasso** [[Link]()]   
+**Spatial Heterogeneous Additive Partial Linear Model: A Joint Approach of Bivariate Spline and Forest Lasso** [[Available on Request]()]   
 --Xin Zhang, Shan Yu, Xin Wang and Zhengyuan Zhu       
 
 

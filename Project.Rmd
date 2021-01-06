@@ -73,7 +73,7 @@ To address these issues, we proposed efficient fusion penalized methods by utili
 | Method | Model | Penalty | # Cluster Indiv. | # Local Obs. | Task | Reference |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |DTFLR  | Linear Model | Adaptive Tree Lasso | $m = O(1)$  | $n \rightarrow \infty$ | Distributed Data Integration | [Short Version](https://arxiv.org/pdf/1905.11549.pdf) | 
-|SHAPLM | Partial Linear Model | Forest Lasso | $m \rightarrow \infty$  | $n = O(1)$  | Image Segmentation | [In Prep.]() | 
+|SHAPLM | Partial Linear Model | Forest Lasso | $m \rightarrow \infty$  | $n = O(1)$  | Image Segmentation | [Available on Request]() | 
 </center>
 <center>
 |   |    |     | 
