@@ -49,7 +49,7 @@ title: 'Project-N.A.C'
 |Async-SGD/SGDI  | Star-Network| -- | --  |-- | &#10004; | [CDC'20](https://arxiv.org/pdf/1805.09470.pdf) | 
 |DC-DGD |P2P-Network| -- |&#10004;| --|-- | [INFOCOM'20](https://arxiv.org/pdf/1912.03208.pdf)|
 |SDM-DSGD |P2P-Network| -- |&#10004; |&#10004;| --|  [MOBIHOC'20](https://arxiv.org/pdf/2001.03836.pdf)|
-|TH-DSGD |P2P-Network| &#10004; | &#10004; |-- |-- | [INFOCOM'21]() |
+|TH-DSGD |P2P-Network| &#10004; | &#10004; |-- |-- | [INFOCOM'21](https://kevinliu-osu-ece.github.io/publications/Hybrid_DGD.pdf) |
 </center>
 <center>
 |   |   |    | 

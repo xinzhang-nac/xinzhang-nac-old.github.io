@@ -5,7 +5,7 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  
 
-**Low Sample and Communication Complexities in Decentralized Learning: A Triple Hybrid Approach** [[Link]()]    
+**Low Sample and Communication Complexities in Decentralized Learning: A Triple Hybrid Approach** [[Link](https://kevinliu-osu-ece.github.io/publications/Hybrid_DGD.pdf)]    
 --Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
 --2021 IEEE International Conference on Computer Communications (INFOCOM).    
 
