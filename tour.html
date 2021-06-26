@@ -13,23 +13,33 @@
 
 <title>Map-N.A.C</title>
 
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
 <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
+<script src="site_libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
 <link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.css" rel="stylesheet" />
 <link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.Default.css" rel="stylesheet" />
 <script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.js"></script>
@@ -45,14 +55,9 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -65,32 +70,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -101,10 +81,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -121,40 +97,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -182,7 +131,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -194,7 +143,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -205,10 +154,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -220,7 +182,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -369,7 +330,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -381,14 +342,14 @@ $(document).ready(function () {
 <p><strong>See where I have been or visited!</strong></p>
 <!-- <iframe src="https://allenansa.shinyapps.io/tour_shiny/" width="1100" height='900' frameBorder="0"> -->
 <!-- </iframe> -->
-<div id="htmlwidget-b8787e2a36c955adb85a" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-b8787e2a36c955adb85a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[31.2304,29.6759,29.9853,23.1291,22.5431,22.3964,28.5383,32.0603,29.4316,28.2282,39.9042,30.2741,33.489,31.4912,41.5868,42.0308,41.8781,42.0451,40.7128,40.7128,34.0522,32.7157,39.9612,38.627,42.3601,38.9072,44.9778,41.6611,41.408,39.084,29.0792,31.299,31.9802,41.7318,22.5431,29.5594,30.7257,42.0495,39.7392,37.3382],[121.4737,115.6813,122.2072,113.2644,114.0579,114.1095,-81.3792,118.7969,106.9123,112.9388,116.4074,120.1551,126.4983,120.3119,-93.625,-93.6319,-87.6298,-87.6877,-74.006,-74.006,-118.2437,-117.1611,-82.9988,-90.1994,-71.0589,-77.0369,-93.265,-91.5302,-92.9164,-77.1528,119.6474,120.5853,120.8943,-93.6001,114.0579,115.9934,122.4514,-92.908,-104.9903,-121.8863],{"iconWidth":0.1,"iconHeight":0.2},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Shanghai, studied here for B.S.","Ruichang, my hometown","Zhoushan, birthplace","Guangzhou, a good place for dim sum(2009)","Shenzhen, visited here in 2012","Hongkong, visited here in 2012","Orlando, 2019 Spring Break!","Nanjing, visited here in 2012","Chongqing, a good place for hot pot!(2016)","Changsha, visited here in 2017","Beijing, visited here in 2016","Hangzhou, visited here in 2011","Jeju, visited here in 2016","Wuxi, visited here in 2015","Des Moines, a metropolitan for flight, lol!","Ames, studied here for Ph.D.","Chicago, a metropolitan for foods, lol!","Evanston, big brother~","New York, just a metropolitan~(2017)","New York, back from China~(2017)","Los Angeles, Universal Studio is awesome!(2016)","San Diego, beautiful beach!(2017)","Columbus, attend IMACSS at OSU in 2018","St. Louis, visited here in 2018","Boston, my dream city!(2018)","Washington, D.C., visited here in 2018","Minneapolis, a metropolitan for shopping, lol!","Iowa City, Korean food here is just soso~(2017)","Pella, tulip here is beautiful!(2018)","Rockville, I like the bite of China, lol!(2018)","Jinhua, hot spring is awesome!(2016)","Suzhou, beautiful city!(2013)","Nantong, nice place!(2015)","Ankeny, Pho~","Shen Zhen","Mount Lu","Sheng Si","Marshalltown","Denver, 2019 JSM~","San Jose, 2020~"],null,{"showCoverageOnHover":true,"zoomToBoundsOnClick":true,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false},null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[22.3964,44.9778],"lng":[-121.8863,126.4983]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-4ce67495bdc4ec7119e4" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4ce67495bdc4ec7119e4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[31.2304,29.6759,29.9853,23.1291,22.5431,22.3964,28.5383,32.0603,29.4316,28.2282,39.9042,30.2741,33.489,31.4912,41.5868,42.0308,41.8781,42.0451,40.7128,40.7128,34.0522,32.7157,39.9612,38.627,42.3601,38.9072,44.9778,41.6611,41.408,39.084,29.0792,31.299,31.9802,41.7318,22.5431,29.5594,30.7257,42.0495,39.7392,37.3382,33.448376],[121.4737,115.6813,122.2072,113.2644,114.0579,114.1095,-81.3792,118.7969,106.9123,112.9388,116.4074,120.1551,126.4983,120.3119,-93.625,-93.6319,-87.6298,-87.6877,-74.006,-74.006,-118.2437,-117.1611,-82.9988,-90.1994,-71.0589,-77.0369,-93.265,-91.5302,-92.9164,-77.1528,119.6474,120.5853,120.8943,-93.6001,114.0579,115.9934,122.4514,-92.908,-104.9903,-121.8863,-112.074036],{"iconWidth":0.1,"iconHeight":0.2},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Shanghai, studied here for B.S.","Ruichang, my hometown","Zhoushan, birthplace","Guangzhou, a good place for dim sum(2009)","Shenzhen, visited here in 2012","Hongkong, visited here in 2012","Orlando, 2019 Spring Break!","Nanjing, visited here in 2012","Chongqing, a good place for hot pot!(2016)","Changsha, visited here in 2017","Beijing, visited here in 2016","Hangzhou, visited here in 2011","Jeju, visited here in 2016","Wuxi, visited here in 2015","Des Moines, a metropolitan for flight, lol!","Ames, studied here for Ph.D.","Chicago, a metropolitan for foods, lol!","Evanston, big brother~","New York, just a metropolitan~(2017)","New York, back from China~(2017)","Los Angeles, Universal Studio is awesome!(2016)","San Diego, beautiful beach!(2017)","Columbus, attend IMACSS at OSU in 2018","St. Louis, visited here in 2018","Boston, my dream city!(2018)","Washington, D.C., visited here in 2018","Minneapolis, a metropolitan for shopping, lol!","Iowa City, Korean food here is just soso~(2017)","Pella, tulip here is beautiful!(2018)","Rockville, I like the bite of China, lol!(2018)","Jinhua, hot spring is awesome!(2016)","Suzhou, beautiful city!(2013)","Nantong, nice place!(2015)","Ankeny, Pho~","Shen Zhen","Mount Lu","Sheng Si","Marshalltown","Denver, 2019 JSM~","San Jose, 2020~","Phoenix"],null,{"showCoverageOnHover":true,"zoomToBoundsOnClick":true,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false},null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[22.3964,44.9778],"lng":[-121.8863,126.4983]}},"evals":[],"jsHooks":[]}</script>
 
 <hr>
 <!-- <div class="right"> -->
 <!-- <a href="https://info.flagcounter.com/EFtE"><img src="https://s04.flagcounter.com/count2/EFtE/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_4/viewers_3/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a> -->
 <!-- </div> -->
-<p style="font-size:15px;">Copyright &copy; 2019- Xin Zhang. All rights reserved.</p>
+<p style="font-size:15px;">Copyright &copy; 2019- Xin Zhang. All rights reserved.</p> 
 
 
 
@@ -398,7 +359,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -416,7 +377,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

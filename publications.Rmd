@@ -5,6 +5,10 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  
 
+**GT-STORM: Taming Sample, Communication, and Memory Complexities in Decentralized Non-Convex Learning**[[Link]()]      
+--Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley    
+--2021 ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc).   
+
 **Low Sample and Communication Complexities in Decentralized Learning: A Triple Hybrid Approach** [[Link](https://kevinliu-osu-ece.github.io/publications/Hybrid_DGD.pdf)]    
 --Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
 --2021 IEEE International Conference on Computer Communications (INFOCOM).    
