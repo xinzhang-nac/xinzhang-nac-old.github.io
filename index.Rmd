@@ -30,29 +30,25 @@ M.S. in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2018]{styl
 
 B.S. in Mathematics, Fudan University, Shanghai, China [Jun 2012 – Jun 2016]{style="float:right"} 
 
-### **Work Experience**
-Research Assistant@ [Network Informatics and Learning Research Group](https://kevinliu-osu-ece.github.io/group/index.html), Ames, IA [Dec 2017 – Dec 2020]{style="float:right"}  
--- Advisor: [Dr. Jia Liu](http://web.cs.iastate.edu/~jialiu/)
+<!-- ### **Work Experience** -->
+<!-- Research Assistant@ [Network Informatics and Learning Research Group](https://kevinliu-osu-ece.github.io/group/index.html), Ames, IA [Dec 2017 – Dec 2020]{style="float:right"}   -->
+<!-- -- Advisor: [Dr. Jia Liu](http://web.cs.iastate.edu/~jialiu/) -->
 
-Research Assistant@ [Center for Survey Statistics & Methodology](https://www.cssm.iastate.edu), Ames, IA [Dec 2016 – Dec 2020]{style="float:right"}    
--- Advisor: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu)
+<!-- Research Assistant@ [Center for Survey Statistics & Methodology](https://www.cssm.iastate.edu), Ames, IA [Dec 2016 – Dec 2020]{style="float:right"}     -->
+<!-- -- Advisor: [Dr. Zhengyuan Zhu](https://zhuz.public.iastate.edu) -->
 
-Teaching Assistant @ Dept. Stat, Iowa State University, Ames, IA [Aug 2016 – Jun 2017]{style="float:right"}  
--- STAT 341(Spring 2017), Instructor: Dr.Kevin Kasper  
--- STAT 430(Fall 2016), Instructor: Dr. 
-Kris De Brabanter  
--- STAT 341(Fall 2016), Instructor: Dr.Kevin Kasper 
+<!-- Teaching Assistant @ Dept. Stat, Iowa State University, Ames, IA [Aug 2016 – Jun 2017]{style="float:right"}   -->
+<!-- -- STAT 341(Spring 2017), Instructor: Dr.Kevin Kasper   -->
+<!-- -- STAT 430(Fall 2016), Instructor: Dr.  -->
+<!-- Kris De Brabanter   -->
+<!-- -- STAT 341(Fall 2016), Instructor: Dr.Kevin Kasper  -->
 
-### **Social Service**
+<!-- ## **Awards** -->
 
-Volunteer@ Shanghai Zoo, Shanghai, China [Aug 2013 – Jun 2016]{style="float:right"}  
-
-## **Awards**
-
-**Vince Sposito Statistical Computing Award**, Stat. Dept.@ISU, 2020.    
-**The Holly C. and E. Beth Fryer Award in Statistics**, Stat. Dept.@ISU, 2018.    
-**Outstanding Graduate of Fudan Unversity**, @FDU, 2016  
-**First Prize of the scholarship for Outstanding Students at Fudan University** ($5\%$), @FDU, 2015      
+<!-- **Vince Sposito Statistical Computing Award**, Stat. Dept.@ISU, 2020.     -->
+<!-- **The Holly C. and E. Beth Fryer Award in Statistics**, Stat. Dept.@ISU, 2018.     -->
+<!-- **Outstanding Graduate of Fudan Unversity**, @FDU, 2016   -->
+<!-- **First Prize of the scholarship for Outstanding Students at Fudan University** ($5\%$), @FDU, 2015       -->
 
 
 
