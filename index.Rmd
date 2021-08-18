@@ -15,8 +15,6 @@ I received my Ph.D. degree from the Dept. of Statistics at [Iowa State Universit
 
 Before that, I obtained my B.S in Mathematics from [Fudan University](http://www.fudan.edu.cn), Shanghai, China. 
 
-My full CV is available [here](files/XinZhang_CV.pdf).
-
 ### **Education**
 
 Ph.D. in Statistics, Iowa State University, Ames, IA [Aug 2016 – Dec 2020]{style="float:right"}  
