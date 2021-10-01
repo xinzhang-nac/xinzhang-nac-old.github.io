@@ -3,15 +3,15 @@ title: 'Publication-N.A.C'
 ---
 &nbsp;
 
-### **Publication**     
+### **Publication**  <font size="2">($*$ marks equal contribution) </font>       
 
-1. **Zhang, Xin**, **Zhuqing Liu**, Jia Liu, Zhengyuan Zhu, and Songtao Lu, "**Taming Communication and Sample Complexities in Decentralized Policy Evaluation for Cooperative Multi-Agent Reinforcement Learning**," in Proc. NeurIPS, Virtual Event, Dec. 2021
+1. **Zhang, Xin**$^*$, Zhuqing Liu$^*$, Jia Liu, Zhengyuan Zhu, and Songtao Lu, "**Taming Communication and Sample Complexities in Decentralized Policy Evaluation for Cooperative Multi-Agent Reinforcement Learning**," in Proc. NeurIPS, Virtual Event, Dec. 2021
 
 1. **Zhang, Xin**, Jia Liu, Zhengyuan Zhu, and Elizabeth S. Bentley, "**GT-STORM: Taming Sample, Communication, and Memory Complexities in Decentralized Non-Convex Learning**" in Proc. ACM MobiHoc, Shanghai, China, Jul. 2021. [[Link](https://arxiv.org/pdf/2105.01231.pdf)]      
 
 2. **Zhang, Xin**, Jia Liu, Zhengyuan Zhu, and Elizabeth Serena Bentley. "**Low Sample and Communication Complexities in Decentralized Learning: A Triple Hybrid Approach**." in Proc. IEEE INFOCOM, Virtual Event, May 2021. [[Link](https://kevinliu-osu-ece.github.io/publications/Hybrid_DGD.pdf)]    
 
-4. **Zhang, Xin**, Jia Liu, and Zhengyuan Zhu. "**Taming convergence for asynchronous stochastic gradient descent with unbounded delay in non-convex learning**." in Proc. IEEE CDC, Jeju Island, Korea, December 2020. [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
+4. **Zhang, Xin**, Jia Liu, and Zhengyuan Zhu. "**Taming convergence for asynchronous stochastic gradient descent with unbounded delay in non-convex learning**." in Proc. IEEE CDC, Jeju Island, Korea, Dec. 2020. [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
 
 11. Yang, Haibo, **Xin Zhang**, Minghong Fang, and Jia Liu. "**Adaptive multi-hierarchical signSGD for communication-efficient distributed optimization**." in Proc. IEEE SPAWC, Special Session on Distributed Signal Processing for Coding and Communications, Atlanta, GA, May 2020.
 [[Link](http://web.cs.iastate.edu/~jialiu/publications/sign2SGD.pdf)]     
