@@ -3,47 +3,31 @@ title: 'Publication-N.A.C'
 ---
 &nbsp;
 
-### **Publication**  
+### **Publication**     
 
-**GT-STORM: Taming Sample, Communication, and Memory Complexities in Decentralized Non-Convex Learning**[[Link]()]      
---Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley    
---2021 ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc).   
+1. **Zhang, Xin**, **Zhuqing Liu**, Jia Liu, Zhengyuan Zhu, and Songtao Lu, "**Taming Communication and Sample Complexities in Decentralized Policy Evaluation for Cooperative Multi-Agent Reinforcement Learning**," in Proc. NeurIPS, Virtual Event, Dec. 2021
 
-**Low Sample and Communication Complexities in Decentralized Learning: A Triple Hybrid Approach** [[Link](https://kevinliu-osu-ece.github.io/publications/Hybrid_DGD.pdf)]    
---Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
---2021 IEEE International Conference on Computer Communications (INFOCOM).    
+1. **Zhang, Xin**, Jia Liu, Zhengyuan Zhu, and Elizabeth S. Bentley, "**GT-STORM: Taming Sample, Communication, and Memory Complexities in Decentralized Non-Convex Learning**" in Proc. ACM MobiHoc, Shanghai, China, Jul. 2021. [[Link](https://arxiv.org/pdf/2105.01231.pdf)]      
 
-**Taming Convergence for Asynchronous SGD with Unbounded Delay in Nonconvex Learning** [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
---Xin Zhang, Jia Liu and Zhengyuan Zhu    
---2020 IEEE Conference on Decision and Control (CDC).  
+2. **Zhang, Xin**, Jia Liu, Zhengyuan Zhu, and Elizabeth Serena Bentley. "**Low Sample and Communication Complexities in Decentralized Learning: A Triple Hybrid Approach**." in Proc. IEEE INFOCOM, Virtual Event, May 2021. [[Link](https://kevinliu-osu-ece.github.io/publications/Hybrid_DGD.pdf)]    
 
-**Adaptive Multi-Hierarchical signSGD for Communication-Efficient Distributed Optimization**[[Link](http://web.cs.iastate.edu/~jialiu/publications/sign2SGD.pdf)]     
---Haibo Yang, Xin Zhang, Minghong Fang, Jia Liu    
---2020 IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC).     
+4. **Zhang, Xin**, Jia Liu, and Zhengyuan Zhu. "**Taming convergence for asynchronous stochastic gradient descent with unbounded delay in non-convex learning**." in Proc. IEEE CDC, Jeju Island, Korea, December 2020. [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
 
-**Private and Communication-Efficient Edge Learning: A Sparse Differential Gaussian-Masking Distributed SGD Approach**[[Link](https://arxiv.org/pdf/2001.03836.pdf)]  
---Xin Zhang, Minghong Fang, Jia Liu and Zhengyuan Zhu     
---2020 ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc).   
+11. Yang, Haibo, **Xin Zhang**, Minghong Fang, and Jia Liu. "**Adaptive multi-hierarchical signSGD for communication-efficient distributed optimization**." in Proc. IEEE SPAWC, Special Session on Distributed Signal Processing for Coding and Communications, Atlanta, GA, May 2020.
+[[Link](http://web.cs.iastate.edu/~jialiu/publications/sign2SGD.pdf)]     
 
-**Communication-Efficient Network- Distributed Optimization with Differential-Coded Compressors**[[Link](https://arxiv.org/pdf/1912.03208.pdf)]  
---Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
---2020 IEEE International Conference on Computer Communications (INFOCOM).   
+6. **Zhang, Xin**, Minghong Fang, Jia Liu, and Zhengyuan Zhu. "**Private and communication-efficient edge learning: a sparse differential gaussian-masking distributed SGD approach**." in Proc. ACM MobiHoc, Shanghai, China, Oct. 2020. [[Link](https://arxiv.org/pdf/2001.03836.pdf)]  
 
-**Byzantine-Resilient SGD for Distributed Learning: A Lipschitz-Inspired Coordinate-wise Median Approach**[[Link](https://arxiv.org/pdf/1909.04532.pdf)]   
---Haibo Yang, Xin Zhang, Minghong Fang, Jia Liu    
---2019 IEEE Conference on Decision and Control (CDC).   
+7. **Zhang, Xin**, Jia Liu, Zhengyuan Zhu, and Elizabeth S. Bentley. "**Communication-efficient network-distributed optimization with differential-coded compressors**." in Proc. IEEE INFOCOM, Toronto, Canada, Jul. 2020. [[Link](https://arxiv.org/pdf/1912.03208.pdf)]  
 
-**Compressed Distributed Gradient Descent: Communication-Efficient Consensus over Networks** [[Link](https://arxiv.org/pdf/1812.04048.pdf)]  
---Xin Zhang, Jia Liu, Zhengyuan Zhu and Elizabeth S Bentley   
---2019 IEEE International Conference on Computer Communications (INFOCOM). 
+8. Yang, Haibo, **Xin Zhang**, Minghong Fang, and Jia Liu. "**Byzantine-resilient stochastic gradient descent for distributed learning: A lipschitz-inspired coordinate-wise median approach**." in Proc. IEEE CDC, Nice, France, Dec. 2019. [[Link](https://arxiv.org/pdf/1909.04532.pdf)]   
 
-**Drug–target interaction prediction by integrating multiview network data** [[Link](https://www.sciencedirect.com/science/article/pii/S1476927117301950)]   
---Xin Zhang, Limin Li, Michael K.Ng, and Shuqin Zhang  
---Computational biology and chemistry 69 (2017): 185-193    
+9. **Zhang, Xin**, Jia Liu, Zhengyuan Zhu, and Elizabeth S. Bentley. "**Compressed distributed gradient descent: Communication-efficient consensus over networks**." in Proc. IEEE INFOCOM, Paris, France, Apr. 2019.  [[Link](https://arxiv.org/pdf/1812.04048.pdf)]  
 
-**Electricity consumer archetypes study based on functional data analysis and $k$-means algorithm** [[Link](http://new.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2015&filename=DWJS201511025&v=MDU3NzFOcm85SFlZUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTE9mWWVkcUZ5bmtWN3ZLSVRyQmZiRzRIOVQ=)]  
---Xin Zhang, Weiguo Gao and Yun Su  
---Power System Technology  39 (2015): 3153-3162.
+10. **Zhang, Xin**, Limin Li, Michael K. Ng, and Shuqin Zhang. "**Drug–target interaction prediction by integrating multiview network data**." Computational biology and chemistry 69 (2017): 185-193. [[Link](https://www.sciencedirect.com/science/article/pii/S1476927117301950)]  
+
+11. **Zhang, Xin**, Weiguo Gao, and Yun Su. "**Electricity consumer archetypes study based on functional data analysis and K-means algorithm**." Power system technology 39, no. 2 (2015): 3153-3162. [[Link](http://new.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2015&filename=DWJS201511025&v=MDU3NzFOcm85SFlZUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTE9mWWVkcUZ5bmtWN3ZLSVRyQmZiRzRIOVQ=)]  
+
 
 ### **Preprint & In Preparation**  
 
