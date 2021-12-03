@@ -6,7 +6,7 @@ title: 'Homepage-N.A.C'
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 ## **Short Bio**
-<img src="images/IMG_8623.jpg" style="width:20%; border:5px solid ; margin-right: 10px; margin-top: -50px" align="right">
+<img src="images/IMG_8623.jpg" style="width:17%; border:3px solid ; margin-right: 10px; margin-top: -50px" align="right">
 
 
 Hi! I’m Xin Zhang.   
@@ -14,6 +14,9 @@ Hi! I’m Xin Zhang.
 I received my Ph.D. degree from the Dept. of Statistics at [Iowa State University](https://www.iastate.edu).   
 
 Before that, I obtained my B.S in Mathematics from [Fudan University](http://www.fudan.edu.cn), Shanghai, China. 
+
+
+
 
 ### **Education**
 

@@ -10,12 +10,12 @@ title: 'Map-N.A.C'
 ```{r, echo = FALSE, fig.align = 'center', warning = FALSE, message = FALSE}
 library(leaflet)
 library(lubridate)
-# load('tour_shiny/visited_place.RData')
+load('tour_shiny/visited_place.RData')
 # visited_places<- rbind(visited_places,
 #                        data.frame(
-#                          place=c('Phoenix'),
-#                          longitude=c(-112.074036),
-#                          latitude=c(33.448376),
+#                          place=c('Napa'),
+#                          longitude=c(-122.2869),
+#                          latitude=c(38.2975),
 #                          country = 'United State'))
 # save(visited_places, file = 'tour_shiny/visited_place.RData')
 leaflet() %>%

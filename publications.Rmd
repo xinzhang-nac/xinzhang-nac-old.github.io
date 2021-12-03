@@ -5,7 +5,7 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  <font size="2">($*$ marks equal contribution) </font>       
 
-1. **Zhang, Xin**$^*$, Zhuqing Liu$^*$, Jia Liu, Zhengyuan Zhu, and Songtao Lu, "**Taming Communication and Sample Complexities in Decentralized Policy Evaluation for Cooperative Multi-Agent Reinforcement Learning**," in Proc. NeurIPS, Virtual Event, Dec. 2021
+1. **Zhang, Xin**$^*$, Zhuqing Liu$^*$, Jia Liu, Zhengyuan Zhu, and Songtao Lu, "**Taming Communication and Sample Complexities in Decentralized Policy Evaluation for Cooperative Multi-Agent Reinforcement Learning**," in Proc. NeurIPS, Virtual Event, Dec. 2021. [[link](https://proceedings.neurips.cc/paper/2021/hash/9c51a13764ca629f439f6accbb4ec413-Abstract.html)]   
 
 1. **Zhang, Xin**, Jia Liu, Zhengyuan Zhu, and Elizabeth S. Bentley, "**GT-STORM: Taming Sample, Communication, and Memory Complexities in Decentralized Non-Convex Learning**" in Proc. ACM MobiHoc, Shanghai, China, Jul. 2021. [[Link](https://arxiv.org/pdf/2105.01231.pdf)]      
 
