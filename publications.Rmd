@@ -5,7 +5,7 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  <font size="2">($*$ marks equal contribution) </font>    
 
-1.  Weidong Liu, Xiaojun Mao, **Xin Zhang**. (alphabetical) "**Fast and Robust Sparsity Learning over Networks: A Decentralized Surrogate Median Regression Approach.**" IEEE Transactions on Signal Processing. 70 (2022): 797-809， [[link](https://ieeexplore.ieee.org/document/9695243)]  
+1.  Weidong Liu, Xiaojun Mao, **Xin Zhang**. "**Fast and Robust Sparsity Learning over Networks: A Decentralized Surrogate Median Regression Approach.**" IEEE Transactions on Signal Processing. 70 (2022): 797-809， [[link](https://ieeexplore.ieee.org/document/9695243)]  
 
 1. **Xin Zhang**$^*$, Zhuqing Liu$^*$, Jia Liu, Zhengyuan Zhu, and Songtao Lu. "**Taming Communication and Sample Complexities in Decentralized Policy Evaluation for Cooperative Multi-Agent Reinforcement Learning.**" in Proc. NeurIPS, Virtual Event, Dec. 2021. [[link](https://proceedings.neurips.cc/paper/2021/hash/9c51a13764ca629f439f6accbb4ec413-Abstract.html)]   
 
