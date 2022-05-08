@@ -3,12 +3,12 @@ title: 'Photo-N.A.C'
 ---
 ```{r,echo=FALSE}
 # library(magick)
-# path = 'photo_files/Beijing/'
+# path = 'photo_files/Portland/'
 # files <- list.files(path)
 # for(i in 1:length(files)){
-#   img <-  image_read(path=paste0(path,files[i]))
-#   img <- image_crop(img, "2500x2000+0")
+#   img <- image_read(path=paste0(path,files[i]))
 #   img <- image_scale(img,'2500x2000!')
+#   img <- image_crop(img, "2500x2000+0")
 #   image_write(image_convert(img, "jpeg"), path = paste0(path,i,'.jpeg'),quality=100, format = "jpeg")
 #   # file.remove(paste0(path,files[i]))
 # }
@@ -59,6 +59,10 @@ Los Angles  |               |
 San Diego |               |
 ------------- | ------------- | -------------
 ![](photo_files/San_diego/1.jpeg){width=250px}  | ![](photo_files/San_diego/2.jpeg){width=250px}  | ![](photo_files/San_diego/3.jpeg){width=250px}
+
+Shasta |               |
+------------- | ------------- | -------------
+![](photo_files/Shasta/1.jpeg){width=250px}  | ![](photo_files/Shasta/2.jpeg){width=250px}  | ![](photo_files/Shasta/3.jpeg){width=250px}
 
 ### **CO**
 
@@ -129,6 +133,16 @@ St.Louis |               |
 Columbus  |               |
 ------------- | ------------- | -------------
 ![](photo_files/Columbus/1.jpeg){width=250px}  | ![](photo_files/Columbus/2.jpeg){width=250px}  | ![](photo_files/Columbus/3.jpeg){width=250px}
+
+
+
+
+### **OR**
+
+Portland  |               |
+------------- | ------------- | -------------
+![](photo_files/Portland/1.jpeg){width=250px}  | ![](photo_files/Portland/2.jpeg){width=250px}  | ![](photo_files/Portland/3.jpeg){width=250px}   
+![](photo_files/Portland/4.jpeg){width=250px}  | ![](photo_files/Portland/5.jpeg){width=250px}  | ![](photo_files/Portland/6.jpeg){width=250px}
 
 
 
