@@ -118,17 +118,11 @@ Minneapolis |               |
 ------------- | ------------- | -------------
 ![](photo_files/minneapolis/1.jpeg){width=250px}  | ![](photo_files/minneapolis/2.jpeg){width=250px}  | ![](photo_files/minneapolis/3.jpeg){width=250px}
 
-### **MO**  
+### **MO**
 
 St.Louis |               |
 ------------- | ------------- | -------------
 ![](photo_files/St.Louis/1.jpeg){width=250px}  | ![](photo_files/St.Louis/2.jpeg){width=250px}  | ![](photo_files/St.Louis/3.jpeg){width=250px}
-
-### **NY**
-
-New York City |               |
-------------- | ------------- | -------------
-![](photo_files/New_York/1.jpeg){width=250px}  | ![](photo_files/New_York/2.jpeg){width=250px}  | ![](photo_files/New_York/3.jpeg){width=250px}
 
 ### **OH**
 
@@ -138,3 +132,9 @@ Columbus  |               |
 
 
 
+
+### **NY**
+
+New York City |               |
+------------- | ------------- | -------------
+![](photo_files/New_York/1.jpeg){width=250px}  | ![](photo_files/New_York/2.jpeg){width=250px}  | ![](photo_files/New_York/3.jpeg){width=250px}
