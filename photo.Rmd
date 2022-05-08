@@ -3,7 +3,7 @@ title: 'Photo-N.A.C'
 ---
 ```{r,echo=FALSE}
 # library(magick)
-# path = 'photo_files/Portland/'
+# path = 'photo_files/San_Francisco/'
 # files <- list.files(path)
 # for(i in 1:length(files)){
 #   img <- image_read(path=paste0(path,files[i]))
@@ -55,6 +55,10 @@ Changsha  |               |
 Los Angles  |               |
 ------------- | ------------- | -------------
 ![](photo_files/los_angle/1.jpeg){width=250px}  | ![](photo_files/los_angle/2.jpeg){width=250px}  | ![](photo_files/los_angle/3.jpeg){width=250px}
+
+San Francisco |               |
+------------- | ------------- | -------------
+![](photo_files/San_Francisco/1.jpeg){width=250px}  | ![](photo_files/San_Francisco/2.jpeg){width=250px}  | ![](photo_files/San_Francisco/3.jpeg){width=250px}
 
 San Diego |               |
 ------------- | ------------- | -------------
