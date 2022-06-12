@@ -6,11 +6,12 @@ navbar:
   left:
     - text: "Research"
       icon: fa-project-diagram
-      menu:
-        - text: "Project"
-          href: Project.html
-        - text: "Publication"
-          href: publications.html
+      href: publications.html
+      # menu:
+      #   - text: "Project"
+      #     href: Project.html
+      #   - text: "Publication"
+      #     href: publications.html
     - text: "Travelling"
       icon: fa-globe-asia
       menu:
