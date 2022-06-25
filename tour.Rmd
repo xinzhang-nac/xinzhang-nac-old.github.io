@@ -1,6 +1,7 @@
 ---
 title: 'Map-N.A.C'
 ---
+<!-- arg' should be one of “default”, “bootstrap”, “cerulean”, “cosmo”, “darkly”, “flatly”, “journal”, “lumen”, “paper”, “readable”, “sandstone”, “simplex”, “spacelab”, “united”, “yeti” -->
 
 **See where I have been or visited!**
 

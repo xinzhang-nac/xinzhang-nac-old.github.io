@@ -40,7 +40,7 @@ navbar:
 
 output:
   html_document:
-    theme: cosmo
+    theme: paper
     highlight: textmate
     include:
       after_body: footer.html
