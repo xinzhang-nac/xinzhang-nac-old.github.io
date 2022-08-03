@@ -5,7 +5,13 @@ title: 'Publication-N.A.C'
 
 ### **Publication**  <font size="2">($*$ marks equal contribution) </font>    
 
-1. Haibo Yang, **Xin Zhang**, Prashant Khanduri, and Jia Liu, "**Anarchic Federated Learning.**" in Proc. ICML, Baltimore, MD, July 2022 (Long Presentation).[[link](https://arxiv.org/pdf/2108.09875.pdf)]    
+1. Haibo Yang, **Xin Zhang**, Prashant Khanduri, and Jia Liu, "**Anarchic Federated Learning.**" in Proc. ICML, Baltimore, MD, July 2022 (Long Presentation).[[link](https://arxiv.org/pdf/2108.09875.pdf)]   
+
+1. **Xin Zhang**, Minghong Fang, Zhuqing Liu, Haibo Yang, Jia Liu and Zhengyuan Zhu. **NET-FLEET: Achieving Linear Convergence Speedup for Fully Decentralized Non-IID Federated Learning.** In Proc. ACM Mobihoc 2022, Seoul, South Korea, Oct. 2022.   
+      
+1. Zhuqing Liu, **Xin Zhang** and Jia Liu. **SYNTHESIS: A Semi-Asynchronous Path-Integrated Stochastic Gradient Method for Distributed Learning in Computing Clusters.** In Proc. ACM Mobihoc 2022, Seoul, South Korea, Oct. 2022.    
+
+1. Zhuqing Liu, **Xin Zhang**, Prashant Khanduri, Songtao Lu, and Jia Liu. **INTERACT: Achieving Low Sample and Communication Complexities in Decentralized Bilevel Learning over Networks.** In Proc. ACM Mobihoc 2022, Seoul, South Korea, Oct. 2022.      
 
 1.  Weidong Liu, Xiaojun Mao, **Xin Zhang**. "**Fast and Robust Sparsity Learning over Networks: A Decentralized Surrogate Median Regression Approach.**" IEEE Transactions on Signal Processing. 70 (2022): 797-809， [[link](https://ieeexplore.ieee.org/document/9695243)]  
 
