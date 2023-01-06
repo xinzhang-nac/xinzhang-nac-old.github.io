@@ -3,47 +3,48 @@ title: 'Publication-N.A.C'
 ---
 &nbsp;
 
-### **Publication**  <font size="2">($*$ marks equal contribution) </font>    
 
-1. Haibo Yang, **Xin Zhang**, Prashant Khanduri, and Jia Liu, "**Anarchic Federated Learning.**" in Proc. ICML, Baltimore, MD, July 2022 (Long Presentation).[[link](https://arxiv.org/pdf/2108.09875.pdf)]   
+### **Publication**  <font size="3">($*$ marks equal contribution) </font>   
 
-1. **Xin Zhang**, Minghong Fang, Zhuqing Liu, Haibo Yang, Jia Liu and Zhengyuan Zhu. **NET-FLEET: Achieving Linear Convergence Speedup for Fully Decentralized Non-IID Federated Learning.** In Proc. ACM Mobihoc 2022, Seoul, South Korea, Oct. 2022.   
+1. **Zhang, X.**, Liu, J. and Zhu, Z., 2022. **Learning Coefficient Heterogeneity over Networks: A Distributed Spanning-Tree-Based Fused-Lasso Regression**. Journal of the American Statistical Association, pp.1-13. [[Link](https://arxiv.org/pdf/1905.11549.pdf)][[Supplementary](files/Supp_MSTClustering_FLASSO_ADMM.pdf)]   
+
+1. Yang, H., **Zhang, X.**, Khanduri, P. and Liu, J., 2022, June. **Anarchic federated learning**. In International Conference on Machine Learning (pp. 25331-25363). PMLR. [[link](https://arxiv.org/pdf/2108.09875.pdf)]   
+
+1. **Zhang, X.**, Fang, M., Liu, Z., Yang, H., Liu, J. and Zhu, Z., 2022, October. **Net-fleet: Achieving linear convergence speedup for fully decentralized federated learning with heterogeneous data**. In Proceedings of the Twenty-Third International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (pp. 71-80).   
       
-1. Zhuqing Liu, **Xin Zhang** and Jia Liu. **SYNTHESIS: A Semi-Asynchronous Path-Integrated Stochastic Gradient Method for Distributed Learning in Computing Clusters.** In Proc. ACM Mobihoc 2022, Seoul, South Korea, Oct. 2022.    
+1. Liu, Z., **Zhang, X.** and Liu, J., 2022, October. **Synthesis: A semi-asynchronous path-integrated stochastic gradient method for distributed learning in computing clusters**. In Proceedings of the Twenty-Third International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (pp. 151-160).    
 
-1. Zhuqing Liu, **Xin Zhang**, Prashant Khanduri, Songtao Lu, and Jia Liu. **INTERACT: Achieving Low Sample and Communication Complexities in Decentralized Bilevel Learning over Networks.** In Proc. ACM Mobihoc 2022, Seoul, South Korea, Oct. 2022.      
+1. Liu, Z., **Zhang, X.**, Khanduri, P., Lu, S. and Liu, J., 2022, October. **INTERACT: achieving low sample and communication complexities in decentralized bilevel learning over networks**. In Proceedings of the Twenty-Third International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (pp. 61-70).   
 
-1.  Weidong Liu, Xiaojun Mao, **Xin Zhang**. "**Fast and Robust Sparsity Learning over Networks: A Decentralized Surrogate Median Regression Approach.**" IEEE Transactions on Signal Processing. 70 (2022): 797-809， [[link](https://ieeexplore.ieee.org/document/9695243)]  
+1. Liu, W., Mao, X. and **Zhang, X.**, 2022. **Fast and Robust Sparsity Learning Over Networks: A Decentralized Surrogate Median Regression Approach**. IEEE Transactions on Signal Processing, 70, pp.797-809.[[link](https://ieeexplore.ieee.org/document/9695243)]  
 
-1. **Xin Zhang**$^*$, Zhuqing Liu$^*$, Jia Liu, Zhengyuan Zhu, and Songtao Lu. "**Taming Communication and Sample Complexities in Decentralized Policy Evaluation for Cooperative Multi-Agent Reinforcement Learning.**" in Proc. NeurIPS, Virtual Event, Dec. 2021. [[link](https://proceedings.neurips.cc/paper/2021/hash/9c51a13764ca629f439f6accbb4ec413-Abstract.html)]   
+1. **Zhang, X.**, Liu, Z., Liu, J., Zhu, Z. and Lu, S., 2021. **Taming Communication and Sample Complexities in Decentralized Policy Evaluation for Cooperative Multi-Agent Reinforcement Learning**. Advances in Neural Information Processing Systems, 34, pp.18825-18838.
+[[link](https://proceedings.neurips.cc/paper/2021/hash/9c51a13764ca629f439f6accbb4ec413-Abstract.html)]   
 
-1. **Xin Zhang**, Jia Liu, Zhengyuan Zhu, and Elizabeth S. Bentley. "**GT-STORM: Taming Sample, Communication, and Memory Complexities in Decentralized Non-Convex Learning.**" in Proc. ACM MobiHoc, Shanghai, China, Jul. 2021. [[Link](https://arxiv.org/pdf/2105.01231.pdf)]      
+1. **Zhang, X.**, Liu, J., Zhu, Z. and Bentley, E.S., 2021, July. **Gt-storm: Taming sample, communication, and memory complexities in decentralized non-convex learning**. In Proceedings of the Twenty-second International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (pp. 271-280). [[Link](https://arxiv.org/pdf/2105.01231.pdf)]      
 
-2. **Xin Zhang**, Jia Liu, Zhengyuan Zhu, and Elizabeth Serena Bentley. "**Low Sample and Communication Complexities in Decentralized Learning: A Triple Hybrid Approach.**" in Proc. IEEE INFOCOM, Virtual Event, May 2021. [[Link](https://par.nsf.gov/servlets/purl/10283901)]    
+2. **Zhang, X.**, Liu, J., Zhu, Z. and Bentley, E.S., 2021, May. **Low Sample and Communication Complexities in Decentralized Learning: A Triple Hybrid Approach**. In IEEE INFOCOM 2021-IEEE Conference on Computer Communications (pp. 1-10). IEEE. [[Link](https://par.nsf.gov/servlets/purl/10283901)]    
 
-4. **Xin Zhang**, Jia Liu, and Zhengyuan Zhu. "**Taming convergence for asynchronous stochastic gradient descent with unbounded delay in non-convex learning.**" in Proc. IEEE CDC, Jeju Island, Korea, Dec. 2020. [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
+4. **Zhang, X.**, Liu, J. and Zhu, Z., 2020, December. **Taming convergence for asynchronous stochastic gradient descent with unbounded delay in non-convex learning**. In 2020 59th IEEE Conference on Decision and Control (CDC) (pp. 3580-3585). IEEE. [[Link](https://arxiv.org/pdf/1805.09470.pdf)]  
 
-11. Haibo Yang, **Xin Zhang**, Minghong Fang, and Jia Liu. "**Adaptive multi-hierarchical signSGD for communication-efficient distributed optimization.**" in Proc. IEEE SPAWC, Special Session on Distributed Signal Processing for Coding and Communications, Atlanta, GA, May 2020.
+11. Yang, H., **Zhang, X.**, Fang, M. and Liu, J., 2020, May. **Adaptive multi-hierarchical signSGD for communication-efficient distributed optimization**. In 2020 IEEE 21st International Workshop on Signal Processing Advances in Wireless Communications (SPAWC) (pp. 1-5). IEEE.
 [[Link](https://ieeexplore.ieee.org/document/9154256)]     
 
-6. **Xin Zhang**, Minghong Fang, Jia Liu, and Zhengyuan Zhu. "**Private and communication-efficient edge learning: a sparse differential gaussian-masking distributed SGD approach.**" in Proc. ACM MobiHoc, Shanghai, China, Oct. 2020. [[Link](https://arxiv.org/pdf/2001.03836.pdf)]  
+6. **Zhang, X.**, Fang, M., Liu, J. and Zhu, Z., 2020, October. **Private and communication-efficient edge learning: a sparse differential gaussian-masking distributed SGD approach**. In Proceedings of the Twenty-First International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (pp. 261-270).
+Vancouver	
+ [[Link](https://arxiv.org/pdf/2001.03836.pdf)]  
 
-7. **Xin Zhang**, Jia Liu, Zhengyuan Zhu, and Elizabeth S. Bentley. "**Communication-efficient network-distributed optimization with differential-coded compressors.**" in Proc. IEEE INFOCOM, Toronto, Canada, Jul. 2020. [[Link](https://arxiv.org/pdf/1912.03208.pdf)]  
+7. Yang, H., **Zhang, X.**, Fang, M. and Liu, J., 2019, December. **Byzantine-resilient stochastic gradient descent for distributed learning: A lipschitz-inspired coordinate-wise median approach**. In 2019 IEEE 58th Conference on Decision and Control (CDC) (pp. 5832-5837). IEEE. [[Link](https://arxiv.org/pdf/1912.03208.pdf)]  
 
 8. Haibo Yang, **Xin Zhang**, Minghong Fang, and Jia Liu. "**Byzantine-resilient stochastic gradient descent for distributed learning: A lipschitz-inspired coordinate-wise median approach.**" in Proc. IEEE CDC, Nice, France, Dec. 2019. [[Link](https://arxiv.org/pdf/1909.04532.pdf)]   
 
-9. **Xin Zhang**, Jia Liu, Zhengyuan Zhu, and Elizabeth S. Bentley. "**Compressed distributed gradient descent: Communication-efficient consensus over networks.**" in Proc. IEEE INFOCOM, Paris, France, Apr. 2019.  [[Link](https://arxiv.org/pdf/1812.04048.pdf)]  
+9. **Zhang, X.**, Liu, J., Zhu, Z. and Bentley, E.S., 2019, April. **Compressed distributed gradient descent: Communication-efficient consensus over networks**. In IEEE INFOCOM 2019-IEEE Conference on Computer Communications (pp. 2431-2439). IEEE.[[Link](https://arxiv.org/pdf/1812.04048.pdf)]  
 
-10. **Xin Zhang**, Limin Li, Michael K. Ng, and Shuqin Zhang. "**Drug–target interaction prediction by integrating multiview network data.**" Computational biology and chemistry 69 (2017): 185-193. [[Link](https://www.sciencedirect.com/science/article/pii/S1476927117301950)]  
+10. **Zhang, X.**, Li, L., Ng, M.K. and Zhang, S., 2017. **Drug–target interaction prediction by integrating multiview network data**. Computational biology and chemistry, 69, pp.185-193.  
 
-11. **Xin Zhang**, Weiguo Gao, and Yun Su. "**Electricity consumer archetypes study based on functional data analysis and K-means algorithm.**" Power system technology 39, no. 2 (2015): 3153-3162. [[Link](http://new.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2015&filename=DWJS201511025&v=MDU3NzFOcm85SFlZUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTE9mWWVkcUZ5bmtWN3ZLSVRyQmZiRzRIOVQ=)]  
-
+11. **Zhang, X.**, Weiguo, G. and Yun, S.U., 2015. **Electricity consumer archetypes study based on functional data analysis and K-means algorithm**. Power system technology, 39(2), pp.3153-3162.   
 
 ### **Preprint & In Preparation**  
-
-**Learning Coefficient Heterogeneity over Networks: A Distributed Tree-Based Fused-Lasso Approach** [[Link](https://arxiv.org/pdf/1905.11549.pdf)]   
---Xin Zhang, Jia Liu and Zhengyuan Zhu     
---[Supplementary](files/Supp_MSTClustering_FLASSO_ADMM.pdf)   
 
 **Spatial Heterogeneous Additive Partial Linear Model: A Joint Approach of Bivariate Spline and Forest Lasso** [[Available on Request]()]   
 --Xin Zhang, Shan Yu, Xin Wang and Zhengyuan Zhu       
