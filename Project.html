@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Project-N.A.C</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="publications.html">
+    <span class="fa fa-project-diagram"></span>
+     
+    Research
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-globe-asia"></span>
+     
+    Travelling
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="tour.html">Map</a>
+    </li>
+    <li>
+      <a href="photo.html">Photo</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="Blog.html">
+    <span class="fa fa-copy"></span>
+     
+    Blog
+  </a>
+</li>
+<li>
+  <a href="link.html">
+    <span class="fa fa-link"></span>
+     
+    Link
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:xinzhang@iastate.edu">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/xinzhang-nac">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/xin-zhang-b96656118/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Project-N.A.C</h1>
+
+</div>
+
+
+ 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.collapsible {
+  background-color: #b2b2b2;
+  color: black;
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+<!-- <IMG SRC="files/case1.gif"> -->
+<div id="ph.d.-projects" class="section level3">
+<h3><strong>Ph.D. Projects</strong></h3>
+<p><strong>Consensus Learning in Distributed System</strong> <span
+style="float:right">Dec 2017 – Dec 2020</span><br />
+– Advisor: Dr. Jia Liu, (CS Dept.@ISU)</p>
+<ul>
+<li>Distribued learning algorithms work with the system formed by a
+group of computational nodes, each of which can locally store the data
+and pass the message in the system. The goal of these algorithm is to
+train a global learning model based on all nodes’ data through local
+computation and neighboring communication. Current distributed learning
+methods suffer from 1) high sample complexity due to the large local
+datasets; 2) inefficient communication caused by the low network
+bandwidth and complex model structure; 3) significant loss of data
+privacy when untrustable nodes exist; 4) unstable performance due to the
+asynchronous and byzantine nodes. Our work focuses on designing
+decentralized algorithms that can overcome these problems. The following
+table summarizes our works.<br />
+
+<center>
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Algorithm</th>
+<th align="center">System</th>
+<th align="center">Low Samp.</th>
+<th align="center">Low Commi.</th>
+<th align="center">Privacy</th>
+<th align="center">Robustness</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">ADC-DGD</td>
+<td align="center">P2P-Network</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center"><a
+href="https://arxiv.org/pdf/1812.04048.pdf">INFOCOM’19</a></td>
+</tr>
+<tr class="even">
+<td align="center">LICM-SGD</td>
+<td align="center">Star-Network</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center"><a
+href="https://arxiv.org/pdf/1909.04532.pdf">CDC’19</a></td>
+</tr>
+<tr class="odd">
+<td align="center">MH-signSGD</td>
+<td align="center">Star-Network</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center"><a
+href="https://ieeexplore.ieee.org/abstract/document/9154256">SPAWC’20</a></td>
+</tr>
+<tr class="even">
+<td align="center">Async-SGD/SGDI</td>
+<td align="center">Star-Network</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center"><a
+href="https://arxiv.org/pdf/1805.09470.pdf">CDC’20</a></td>
+</tr>
+<tr class="odd">
+<td align="center">DC-DGD</td>
+<td align="center">P2P-Network</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center"><a
+href="https://arxiv.org/pdf/1912.03208.pdf">INFOCOM’20</a></td>
+</tr>
+<tr class="even">
+<td align="center">SDM-DSGD</td>
+<td align="center">P2P-Network</td>
+<td align="center">–</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center"><a
+href="https://arxiv.org/pdf/2001.03836.pdf">MOBIHOC’20</a></td>
+</tr>
+<tr class="odd">
+<td align="center">TH-DSGD</td>
+<td align="center">P2P-Network</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+<td align="center">–</td>
+<td align="center">–</td>
+<td align="center"><a
+href="https://kevinliu-osu-ece.github.io/publications/Hybrid_DGD.pdf">INFOCOM’21</a></td>
+</tr>
+</tbody>
+</table>
+</center>
+<center>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="images/Dist_Opt/D1.png" height="250"
+alt="Star-Network" /></td>
+<td align="center"><img src="images/image_space.png"
+height="250" /></td>
+<td align="center"><img src="images/Dist_Opt/D2.png" height="250"
+alt="P2P-Network" /></td>
+</tr>
+<tr class="even">
+<td align="center">Star-Network</td>
+<td align="center"></td>
+<td align="center">P2P-Network</td>
+</tr>
+</tbody>
+</table>
+</center></li>
+</ul>
+<p> </p>
+<p><strong>Heterogeneous Modeling with Network Topology</strong> <span
+style="float:right">Jan 2018 – Dec 2020</span></p>
+<p>– Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)</p>
+<ul>
+<li>Heterogeneous modeling aims to simultaneously estimate model
+parameters and cluster observations based on model similarity, thus also
+known as model-based clustering analysis. To date, this topic has
+attracted a surge of research interests and found important applications
+in many scientific fields, such as personalized medicine, image
+analysis, and economic study, etc. Although various methods have been
+proposed, most of them tackle the problem without considering the
+underlying structure restriction among the observations. Additionally,
+to simultaneously solve the estimation and clustering tasks, existing
+methods (e.g., EM algorithm, pairwise fusion, etc.) often necessitate
+intensive computations. To address these issues, we proposed efficient
+fusion penalized methods by utilizing the network/graph structure of
+data while only requiring a low computation complexity.<br />
+
+<center>
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Method</th>
+<th align="center">Model</th>
+<th align="center">Penalty</th>
+<th align="center"># Cluster Indiv.</th>
+<th align="center"># Local Obs.</th>
+<th align="center">Task</th>
+<th align="center">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">DTFLR</td>
+<td align="center">Linear Model</td>
+<td align="center">Adaptive Tree Lasso</td>
+<td align="center"><span class="math inline">\(m = O(1)\)</span></td>
+<td align="center"><span class="math inline">\(n \rightarrow
+\infty\)</span></td>
+<td align="center">Distributed Data Integration</td>
+<td align="center"><a href="https://arxiv.org/pdf/1905.11549.pdf">Short
+Version</a></td>
+</tr>
+<tr class="even">
+<td align="center">SHAPLM</td>
+<td align="center">Partial Linear Model</td>
+<td align="center">Forest Lasso</td>
+<td align="center"><span class="math inline">\(m \rightarrow
+\infty\)</span></td>
+<td align="center"><span class="math inline">\(n = O(1)\)</span></td>
+<td align="center">Image Segmentation</td>
+<td align="center"><a href="">Available on Request</a></td>
+</tr>
+</tbody>
+</table>
+</center>
+<center>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="images/HM/HM1.png" height="250" /></td>
+<td align="center"><img src="images/image_space.png"
+height="250" /></td>
+<td align="center"><img src="images/HM/HM2.png" height="250" /></td>
+</tr>
+<tr class="even">
+<td align="center">Distributed Data Integration</td>
+<td align="center"></td>
+<td align="center">Image Segmentation</td>
+</tr>
+</tbody>
+</table>
+</center></li>
+</ul>
+<p> </p>
+</div>
+<div id="past-projects" class="section level3">
+<h3><strong>Past Projects</strong></h3>
+<button class="collapsible">
+<strong>Spatial Weak Signal Detection</strong> <span
+style="float:right">Dec 2016 – May 2018</span>
+</button>
+<div class="content">
+<p>– Advisor: Dr. Zhengyuan Zhu, (Stat Dept.@ISU)</p>
+<ul>
+<li>We propose a detection method (SCUSUM) to detect weak spatial
+signals, which is based on the conventional CUSUM method for
+change-point detection. The statistical properties of SCUSUM are
+analyzed in our work, which implies that this method could identify the
+abnormal region w.h.p. We apply this method to fMRI data to identify the
+active regions.<br />
+</li>
+<li><a
+href="https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1049&amp;context=creativecomponents">Preprint</a></li>
+</ul>
+<center>
+<table>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="images/SCUSUM/S1.png" width="240" /></td>
+<td align="center"><img src="images/SCUSUM/S2.png" width="240" /></td>
+<td align="center"><img src="images/SCUSUM/S4.png" width="180" /></td>
+<td align="center"><img src="images/SCUSUM/S5.png" width="180" /></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+  <button class="collapsible"><strong>Drug-Target Interaction
+Prediction</strong> <span style="float:right">Sept 2014 – Jun
+2016</span> </button>
+<div class="content">
+<p>– Advisor: Dr. Shuqin Zhang (Math Dept.@FDU)</p>
+<ul>
+<li>We propose a multiview drug-target interaction prediction method
+(MVDTI) based on network clustering and co-training. This method can
+identify the drug-target clusters in both drug and target protein
+similarity networks. We predict potential DTI pairs based on the LINCS
+database and conducting enrichment analysis on the detected co-modules
+to assess the prediction accuracy.<br />
+</li>
+<li><a
+href="https://www.sciencedirect.com/science/article/pii/S1476927117301950">Computational
+Biology and Chemistry’17</a></li>
+</ul>
+<center>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="images/DTI/DTI_2.png" width="150" /></td>
+<td align="center"><img src="images/DTI/DTI_3.png" width="330" /></td>
+<td align="center"><img src="images/DTI/DTI_1.png" width="220" /></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+  <button class="collapsible"><strong>Electricity Consumer
+Characteristics Study</strong> <span style="float:right">May 2015 – Jun
+2016</span> </button>
+<div class="content">
+<p>– Advisor: Dr. Weiguo Gao (Math Dept.@FDU)</p>
+<ul>
+<li>We apply the kernel method to estimate the continuous curves of
+daily data with the missing values. Then the functional k-means
+algorithm is conducted on the electricity consumption data to cluster
+Consumers in Shanghai.<br />
+</li>
+<li><a
+href="http://new.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&amp;dbname=CJFDLAST2015&amp;filename=DWJS201511025&amp;v=MDU3NzFOcm85SFlZUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTE9mWWVkcUZ5bmtWN3ZLSVRyQmZiRzRIOVQ=">Power
+System Technology’15</a></li>
+</ul>
+<center>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="images/Electricity/ele1.png"
+width="300" /></td>
+<td align="center"><img src="images/Electricity/ele2.png"
+width="300" /></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
+</div>
+
+<hr>
+<!-- <div class="right"> -->
+<!-- <a href="https://info.flagcounter.com/EFtE"><img src="https://s04.flagcounter.com/count2/EFtE/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_4/viewers_3/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a> -->
+<!-- </div> -->
+<p style="font-size:15px;">Copyright &copy; 2019- Xin Zhang. All rights reserved.</p> 
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

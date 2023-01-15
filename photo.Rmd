@@ -1,0 +1,158 @@
+---
+title: 'Photo-N.A.C'
+---
+```{r,echo=FALSE}
+# library(magick)
+# path = 'photo_files/San_Francisco/'
+# files <- list.files(path)
+# for(i in 1:length(files)){
+#   img <- image_read(path=paste0(path,files[i]))
+#   img <- image_scale(img,'2500x2000!')
+#   img <- image_crop(img, "2500x2000+0")
+#   image_write(image_convert(img, "jpeg"), path = paste0(path,i,'.jpeg'),quality=100, format = "jpeg")
+#   # file.remove(paste0(path,files[i]))
+# }
+# # rmarkdown::render_site()
+```
+
+&nbsp;
+
+## **China** {.tabset .tabset-fade}
+
+### **Beijing**
+
+Beijing  |               |
+------------- | ------------- | -------------
+![](photo_files/Beijing/1.jpeg){width=250px}  | ![](photo_files/Beijing/2.jpeg){width=250px}  | ![](photo_files/Beijing/3.jpeg){width=250px}  
+![](photo_files/Beijing/4.jpeg){width=250px}  | ![](photo_files/Beijing/5.jpeg){width=250px}  | ![](photo_files/Beijing/6.jpeg){width=250px}
+
+### **Chongqing**
+
+Chongqing  |               |
+------------- | ------------- | -------------
+![](photo_files/Chongqing/1.jpeg){width=250px}  | ![](photo_files/Chongqing/2.jpeg){width=250px}  | ![](photo_files/Chongqing/6.jpeg){width=250px}  
+![](photo_files/Chongqing/4.jpeg){width=250px}  | ![](photo_files/Chongqing/5.jpeg){width=250px}  | ![](photo_files/Chongqing/3.jpeg){width=250px}
+
+<!-- ### **Shanghai** -->
+
+<!-- Shanghai  |               | -->
+<!-- ------------- | ------------- | ------------- -->
+<!-- ![](photo_files/Shanghai/1.jpeg){width=250px}  | ![](photo_files/Shanghai/2.jpeg){width=250px}  | ![](photo_files/Shanghai/4.jpeg){width=250px} -->
+<!-- ![](photo_files/Shanghai/5.jpeg){width=250px}  | ![](photo_files/Shanghai/3.jpeg){width=250px}   -->
+
+### **Hunan**
+
+Changsha  |               |
+------------- | ------------- | -------------
+![](photo_files/Changsha//1.jpeg){width=250px}  | ![](photo_files/Changsha//2.jpeg){width=250px}  | ![](photo_files/Changsha//3.jpeg){width=250px}
+![](photo_files/Changsha//4.jpeg){width=250px}  | ![](photo_files/Changsha//5.jpeg){width=250px}  | ![](photo_files/Changsha//6.jpeg){width=250px}
+
+
+## **United States** {.tabset .tabset-fade}
+
+### **CA**
+
+Los Angles  |               |
+------------- | ------------- | -------------
+![](photo_files/los_angle/1.jpeg){width=250px}  | ![](photo_files/los_angle/2.jpeg){width=250px}  | ![](photo_files/los_angle/3.jpeg){width=250px}
+
+San Francisco |               |
+------------- | ------------- | -------------
+![](photo_files/San_Francisco/1.jpeg){width=250px}  | ![](photo_files/San_Francisco/2.jpeg){width=250px}  | ![](photo_files/San_Francisco/3.jpeg){width=250px}
+
+San Diego |               |
+------------- | ------------- | -------------
+![](photo_files/San_diego/1.jpeg){width=250px}  | ![](photo_files/San_diego/2.jpeg){width=250px}  | ![](photo_files/San_diego/3.jpeg){width=250px}
+
+Shasta |               |
+------------- | ------------- | -------------
+![](photo_files/Shasta/1.jpeg){width=250px}  | ![](photo_files/Shasta/2.jpeg){width=250px}  | ![](photo_files/Shasta/3.jpeg){width=250px}
+
+### **CO**
+
+Denver |               |
+------------- | ------------- | -------------
+![](photo_files/Denver/1.jpeg){width=250px}  | ![](photo_files/Denver/2.jpeg){width=250px}  | ![](photo_files/Denver/3.jpeg){width=250px}
+![](photo_files/Denver/4.jpeg){width=250px}  | ![](photo_files/Denver/5.jpeg){width=250px}  | ![](photo_files/Denver/6.jpeg){width=250px}
+
+### **DC**
+Washiton|               |
+------------- | ------------- | -------------
+![](photo_files/DC/1.jpeg){width=250px}  | ![](photo_files/DC/3.jpeg){width=250px} | ![](photo_files/DC/2.jpeg){width=250px}
+
+### **FL**
+Orlando|               |
+------------- | ------------- | -------------
+![](photo_files/Orlando/1.jpeg){width=250px}  | ![](photo_files/Orlando/3.jpeg){width=250px} | ![](photo_files/Orlando/2.jpeg){width=250px} 
+![](photo_files/Orlando/4.jpeg){width=250px}  | ![](photo_files/Orlando/5.jpeg){width=250px} | 
+
+### **IA**
+
+Ames|               |
+------------- | ------------- | -------------
+![](photo_files/Ames/1.jpeg){width=250px}  | ![](photo_files/Ames/2.jpeg){width=250px}  | ![](photo_files/Ames/3.jpeg){width=250px}
+
+Pella|               |
+------------- | ------------- | -------------
+![](photo_files/Pella/1.jpeg){width=250px}  | ![](photo_files/Pella/2.jpeg){width=250px}  | ![](photo_files/Pella/3.jpeg){width=250px}
+
+### **IL**
+
+Chicago     |               |
+------------- | ------------- | -------------
+![](photo_files/Chicago/1.jpeg){width=250px}  | ![](photo_files/Chicago/2.jpeg){width=250px} | ![](photo_files/Chicago/3.jpeg){width=250px}
+
+Evanston    |               |
+------------- | ------------- | -------------
+![](photo_files/evanston/1.jpeg){width=250px}  | ![](photo_files/evanston/2.jpeg){width=250px} | ![](photo_files/evanston/3.jpeg){width=250px}
+
+### **MA**
+
+Boston |               |
+------------- | ------------- | -------------
+![](photo_files/Boston/1.jpeg){width=250px}  | ![](photo_files/Boston/2.jpeg){width=250px}  | ![](photo_files/Boston/3.jpeg){width=250px}
+![](photo_files/Boston/4.jpeg){width=250px}  | ![](photo_files/Boston/5.jpeg){width=250px}  | ![](photo_files/Boston/6.jpeg){width=250px}
+
+### **MD**
+
+Rockville|               |
+------------- | ------------- | -------------
+![](photo_files/rockville/1.jpeg){width=250px}  | ![](photo_files/rockville/2.jpeg){width=250px}  | ![](photo_files/rockville/3.jpeg){width=250px}
+
+
+### **MN**
+
+Minneapolis |               |
+------------- | ------------- | -------------
+![](photo_files/minneapolis/1.jpeg){width=250px}  | ![](photo_files/minneapolis/2.jpeg){width=250px}  | ![](photo_files/minneapolis/3.jpeg){width=250px}
+
+### **MO**
+
+St.Louis |               |
+------------- | ------------- | -------------
+![](photo_files/St.Louis/1.jpeg){width=250px}  | ![](photo_files/St.Louis/2.jpeg){width=250px}  | ![](photo_files/St.Louis/3.jpeg){width=250px}
+
+### **OH**
+
+Columbus  |               |
+------------- | ------------- | -------------
+![](photo_files/Columbus/1.jpeg){width=250px}  | ![](photo_files/Columbus/2.jpeg){width=250px}  | ![](photo_files/Columbus/3.jpeg){width=250px}
+
+
+
+
+### **OR**
+
+Portland  |               |
+------------- | ------------- | -------------
+![](photo_files/Portland/1.jpeg){width=250px}  | ![](photo_files/Portland/2.jpeg){width=250px}  | ![](photo_files/Portland/3.jpeg){width=250px}   
+![](photo_files/Portland/4.jpeg){width=250px}  | ![](photo_files/Portland/5.jpeg){width=250px}  | ![](photo_files/Portland/6.jpeg){width=250px}
+
+
+
+
+### **NY**
+
+New York City |               |
+------------- | ------------- | -------------
+![](photo_files/New_York/1.jpeg){width=250px}  | ![](photo_files/New_York/2.jpeg){width=250px}  | ![](photo_files/New_York/3.jpeg){width=250px}
